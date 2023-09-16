@@ -1,5 +1,5 @@
 # prac
-Practice tool for instant smokes in cs2
+Practice tool for utility and instant smokes in cs2
 
   _____           _              _     __                 _                __                ___  __ ____   
   \_   \_ __  ___| |_ __ _ _ __ | |_  / _\_ __ ___   ___ | | _____  ___   / _| ___  _ __    / __\/ _\___ \  
