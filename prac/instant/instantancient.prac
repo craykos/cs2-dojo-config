@@ -1,0 +1,109 @@
+// game commands for offline server
+exec "prac\resource\serversettingsoffline.prac"
+
+echo
+echo
+echo To practice instant smokes
+echo -with lineup write>>> i1
+echo -without help write>>> i2
+echo This will load the training mode to your instant keys
+echo
+echo
+echo
+
+//#########################################################################################################
+// Real Instant Smoke positions, instructions and video link
+alias instantancient1 "setpos -392.000000 -2320.000000 -99.255737;setang -30.557995 92.623383 0.000000"
+alias instantancient1output "say_team #1 Instant Smoke Spawn 4 Window, Easy, crouch+ w jumpthrow"
+alias instantancient1video "echo "
+
+alias instantancient2 "setpos -392.000000 -2320.000000 -99.255737;setang -23.891943 92.359207 0.000000"
+alias instantancient2output "say_team #2 Instant Smoke Spawn 4 Window, Medium, crouch+ walk jumpthrow, release at next stone, video"
+alias instantancient2video "echo video medal.tv/games/counter-strike-2/clips/1tFCPXjRrmf0HF/d1337QfyYbxu?invite=cr-MSwyR2IsMTk2NTU4NTQxLA"
+
+alias instantancient3 "setpos_exact -360.000000 -2384.000000 -99.255737;setang -28.154308 94.570251 0.000000"
+alias instantancient3output "say_team #3 Instant Smoke Spawn 5 Window, Medium, crouch+walk release at gap, video"
+alias instantancient3video "echo video #5 medal.tv/games/counter-strike-2/clips/1tFE6agyPuuf3c/d1337fsHiBEl?invite=cr-MSxlaTIsMTk2NTU4NTQxLA"
+
+alias instantancient4 "setpos -392.000000 -2320.000000 -99.255737;setang -27.170044 101.423683 0.000000"
+alias instantancient4output "say_team #4 Instant Smoke Spawn 4 Donut, Walk + jumpthrow, release after one step"
+alias instantancient4video "echo "
+
+alias instantancient5 "setpos -360.000000 -2384.000000 -99.255737;setang -26.306223 101.544266 0.000000"
+alias instantancient5output "say_team #5 Instant Smoke Spawn 5 Donut, Walk + jumpthrow, release after one step, video"
+alias instantancient5video "echo video medal.tv/games/counter-strike-2/clips/1tFGNqTjYg7m6V/d1337KUt6CbN?invite=cr-MSxhTkIsMTk2NTU4NTQxLA"
+
+alias instantancient6 "setpos -632.028198 -2037.201294 -82.968750;setang -27.516087 86.921837 0.000000"
+alias instantancient6output "say_team #6 Late Deep Window Smoke, jumpthrow"
+alias instantancient6video "echo  "
+//#########################################################################################################
+
+// Spawn positions
+alias instantancienttrain1 "setpos -392.000000 -2320.000000 -99.255737;setang 0.000000 90.000000 0.000000"
+alias instantancienttrain2 "setpos -392.000000 -2320.000000 -99.255737;setang 0.000000 90.000000 0.000000"
+alias instantancienttrain3 "setpos -360.000000 -2384.000000 -99.255737;setang 0.000000 90.000000 0.000000"
+alias instantancienttrain4 "setpos -392.000000 -2320.000000 -99.255737;setang 0.000000 90.000000 0.000000"
+alias instantancienttrain5 "setpos -360.000000 -2384.000000 -99.255737;setang 0.000000 90.000000 0.000000"
+alias instantancienttrain6 "setpos -582.875916 -2201.312256 -99.255737;setang -1.512017 90.414375 0.000000"
+
+
+
+// Set unused variable
+alias instantrepeat ""
+
+
+// Cycle through real instant smokes
+alias instantancient .instantancient1
+alias .instantancient1 "instantancient1; alias instantancient .instantancient2; alias instantrepeat instantancient1; instantancient1output; instantancient1video"
+alias .instantancient2 "instantancient2; alias instantancient .instantancient3; alias instantrepeat instantancient2; instantancient2output; instantancient2video"
+alias .instantancient3 "instantancient3; alias instantancient .instantancient4; alias instantrepeat instantancient3; instantancient3output; instantancient3video"
+alias .instantancient4 "instantancient4; alias instantancient .instantancient5; alias instantrepeat instantancient4; instantancient4output; instantancient4video"
+alias .instantancient5 "instantancient5; alias instantancient .instantancient6; alias instantrepeat instantancient5; instantancient5output; instantancient5video"
+alias .instantancient6 "instantancient6; alias instantancient .instantancient1; alias instantrepeat instantancient6; instantancient6output; instantancient6video"
+
+// Cycle through spawn positions
+alias instantancienttrain .instantancienttrain1
+alias .instantancienttrain1 "instantancienttrain1; alias instantancienttrain .instantancienttrain3; alias instantrepeat instantancienttrain1; alias instanthelp instanthelp1; say_team Window"
+alias instanthelp1 "instantancient1output; instantancient1"
+
+alias .instantancienttrain2 "instantancienttrain2; alias instantancienttrain .instantancienttrain6; alias instantrepeat instantancienttrain2; alias instanthelp instanthelp2; say_team Window"
+alias instanthelp2 "instantancient2output; instantancient2"
+
+alias .instantancienttrain3 "instantancienttrain3; alias instantancienttrain .instantancienttrain5; alias instantrepeat instantancienttrain3; alias instanthelp instanthelp3; say_team Window"
+alias instanthelp3 "instantancient3output; instantancient3"
+
+alias .instantancienttrain4 "instantancienttrain4; alias instantancienttrain .instantancienttrain1; alias instantrepeat instantancienttrain4; alias instanthelp instanthelp4; say_team Donut"
+alias instanthelp4 "instantancient4output; instantancient4"
+
+alias .instantancienttrain5 "instantancienttrain5; alias instantancienttrain .instantancienttrain2; alias instantrepeat instantancienttrain5; alias instanthelp instanthelp5; say_team Donut"
+alias instanthelp5 "instantancient5output; instantancient5"
+
+alias .instantancienttrain6 "instantancienttrain6; alias instantancienttrain .instantancienttrain4; alias instantrepeat instantancienttrain6; alias instanthelp instanthelp6; say_team Window"
+alias instanthelp6 "instantancient6output; instantancient6"
+
+//	Bind repeat function to key2
+alias instantkey2 instantrepeat
+alias instantkey3 instanthelp
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+//	Bind Wheelchair mode to instantkey1
+alias i1 instantwheelstart
+alias instantwheelstart "alias instantkey1 instantancient; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #2 to train the same lineup again; slot8"
+//	Bind instantlove mode to instantkey1
+alias i2 instantlovestart
+alias instantlovestart "alias instantkey1 instantancienttrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again; slot8"
+
+//  .:::::                                                    .::::::::                            
+//  .::   .::              .::                     .::        .::                                  
+//  .::    .::   .::             .::             . .::        .::      .::     .::   .::    .: .:::
+//  .::    .:: .::  .::    .:: .::  .::         .: .::        .::::::   .::   .::  .:   .::  .::   
+//  .::    .::.::    .::   .::.::    .::      .::  .::        .::        .:: .::  .::::: .:: .::   
+//  .::   .::  .::  .::    .:: .::  .::      .:::: .: .::     .::         .:.::   .:         .::   
+//  .:::::       .::       .::   .::               .::        .::::::::    .::      .::::   .:::   
+//                      .:::                                                                       
+
+// Dojo powered by fREShCS
+// https://www.twitch.tv/freshcs_
+// https://www.youtube.com/@fREShCS
+//
+// credit to NartOutHere for the first set of ancient instant smokes https://www.youtube.com/watch?v=U8EVc09ct5E

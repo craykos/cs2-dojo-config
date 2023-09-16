@@ -1,0 +1,19 @@
+// game commands for offline server
+sv_cheats true
+sv_grenade_trajectory_prac_trailtime 8
+sv_regeneration_force_on 1
+sv_falldamage_scale 0.0001
+sv_grenade_trajectory_prac_pipreview true
+bot_kick all
+sv_infinite_ammo 1
+mp_buy_anywhere 1
+sv_showimpacts 1
+sv_showimpacts_time 10
+mp_warmup_offline_enabled true
+mp_warmup_start
+mp_warmup_pausetimer 1
+buy smokegrenade
+buy flashbang
+buy hegrenade
+buy molotov
+buy incgrenade

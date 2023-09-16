@@ -1,0 +1,12 @@
+//	Exec instant smokes files
+alias iancient "exec prac\instant\instantancient.prac"
+alias imirage "exec prac\instant\instantmirage.prac"
+alias i1 ""
+alias i2 ""
+
+echo
+echo Load instant smokes
+echo mirage _write>>> imirage
+echo ancient _write>>> iancient
+echo
+echo

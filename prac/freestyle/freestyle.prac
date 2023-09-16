@@ -1,0 +1,12 @@
+// Clear alias
+alias i1 ""
+alias i2 ""
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+
+// game commands for offline server
+exec "prac\resource\serversettingsoffline.prac"
+
+//Confirm start of practice mode
+toggleconsole 
+say_team "Freestyle practice mode loaded ..."
