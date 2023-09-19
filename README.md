@@ -19,7 +19,8 @@ Installation:
 1. 	Copy files for the limited test of CS2 to the folder
 	Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 
-2.	Set the keys for the program in the file prac.cfg (Default F1,F2,F4,F5 & F6)  
+2.	Set the keys for the program in the file prac.cfg  
+Default:  
 F1 = Next spawn  
 F2 = Same spawn again  
 F4 = Reveals lineup  
