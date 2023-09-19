@@ -20,3 +20,8 @@ Installation:
 	Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 
 2.	Set the keys for the program in the file prac.cfg (Default F1,F2,F4,F5 & F6)
+F1 = Next spawn
+F2 = Same spawn again
+F4 = Reveals lineup
+F5 = Clears smoke
+F6 = Rethrow
