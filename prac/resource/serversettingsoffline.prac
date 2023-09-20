@@ -12,8 +12,12 @@ sv_showimpacts_time 10
 mp_warmup_offline_enabled true
 mp_warmup_start
 mp_warmup_pausetimer 1
-buy smokegrenade
-buy flashbang
-buy hegrenade
-buy molotov
-buy incgrenade
+slot1
+give weapon_smokegrenade
+give weapon_flashbang
+give weapon_hegrenade
+give weapon_molotov
+give weapon_incgrenade
+give weapon_ak47
+give weapon_m4a1
+give weapon_m4a1_silencer
