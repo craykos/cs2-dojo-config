@@ -20,7 +20,11 @@ Installation:
 	Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 
 2.	Set the keys for the program in the file prac.cfg  
-Default:  
+3.     Open CS2 -> press "Play" -> "Practice" -> "Competitive"
+4.     Choose the map you want to play -> press "Go"
+5.     Open console and write "exec prac"
+
+Default Keys:  
 F1 = Next spawn  
 F2 = Same spawn again  
 F4 = Reveals lineup  
