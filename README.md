@@ -1,4 +1,4 @@
-# prac
+# cs2-dojo-config
 Practice tool for utility and instant smokes in cs2
 
   _____           _              _     __                 _                __                ___  __ ____   
