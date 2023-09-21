@@ -19,11 +19,11 @@ alias instantancient1video "echo "
 
 alias instantancient2 "setpos -392.000000 -2320.000000 -99.255737;setang -23.891943 92.359207 0.000000"
 alias instantancient2output "say_team #2 Instant Smoke Spawn 4 Window, Medium, crouch+ walk jumpthrow, release at next stone, video"
-alias instantancient2video "echo video medal.tv/games/counter-strike-2/clips/1tFCPXjRrmf0HF/d1337QfyYbxu?invite=cr-MSwyR2IsMTk2NTU4NTQxLA"
+alias instantancient2video "echo video #2 medal.tv/games/counter-strike-2/clips/1tFCPXjRrmf0HF/d1337QfyYbxu?invite=cr-MSwyR2IsMTk2NTU4NTQxLA"
 
 alias instantancient3 "setpos_exact -360.000000 -2384.000000 -99.255737;setang -28.154308 94.570251 0.000000"
 alias instantancient3output "say_team #3 Instant Smoke Spawn 5 Window, Medium, crouch+walk release at gap, video"
-alias instantancient3video "echo video #5 medal.tv/games/counter-strike-2/clips/1tFE6agyPuuf3c/d1337fsHiBEl?invite=cr-MSxlaTIsMTk2NTU4NTQxLA"
+alias instantancient3video "echo video #3 medal.tv/games/counter-strike-2/clips/1tFE6agyPuuf3c/d1337fsHiBEl?invite=cr-MSxlaTIsMTk2NTU4NTQxLA"
 
 alias instantancient4 "setpos -392.000000 -2320.000000 -99.255737;setang -27.170044 101.423683 0.000000"
 alias instantancient4output "say_team #4 Instant Smoke Spawn 4 Donut, Walk + jumpthrow, release after one step"
@@ -31,7 +31,7 @@ alias instantancient4video "echo "
 
 alias instantancient5 "setpos -360.000000 -2384.000000 -99.255737;setang -26.306223 101.544266 0.000000"
 alias instantancient5output "say_team #5 Instant Smoke Spawn 5 Donut, Walk + jumpthrow, release after one step, video"
-alias instantancient5video "echo video medal.tv/games/counter-strike-2/clips/1tFGNqTjYg7m6V/d1337KUt6CbN?invite=cr-MSxhTkIsMTk2NTU4NTQxLA"
+alias instantancient5video "echo video #5 medal.tv/games/counter-strike-2/clips/1tFGNqTjYg7m6V/d1337KUt6CbN?invite=cr-MSxhTkIsMTk2NTU4NTQxLA"
 
 alias instantancient6 "setpos -632.028198 -2037.201294 -82.968750;setang -27.516087 86.921837 0.000000"
 alias instantancient6output "say_team #6 Late Deep Window Smoke, jumpthrow"
