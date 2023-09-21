@@ -14,6 +14,7 @@ Practice tool for utility and instant smokes in cs2
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
+ᴠ. 3.18
 
 Installation: 
 1.      Copy files for the limited test of CS2 to the folder  
