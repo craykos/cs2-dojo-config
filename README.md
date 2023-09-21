@@ -16,7 +16,7 @@ Practice tool for utility and instant smokes in cs2
 
 
 Installation: 
-1. 	Copy files for the limited test of CS2 to the folder
+1. 	Copy files for the limited test of CS2 to the folder  
 	Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg   
 2.	Set the keys for the program in the file prac.cfg  
 3.     Open CS2 -> press "Play" -> "Practice" -> "Competitive"
