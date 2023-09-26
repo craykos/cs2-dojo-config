@@ -16,7 +16,7 @@ Practice tool for utility and instant smokes in cs2
 
 ᴠ. 3.18
 
-Supported maps: ancient, anubis & mirage
+Instant smokes for: ancient, anubis & mirage
 
 Installation: 
 1.      Copy files for the limited test of CS2 to the folder  
