@@ -1,0 +1,141 @@
+// game commands for offline server
+exec "dojo\resource\serversettingsoffline.prac"
+
+echo
+echo
+echo To practice instant smokes
+echo -with lineup write>>> i1
+echo -without help write>>> i2
+echo This will load the training mode to your instant keys
+echo
+echo
+echo
+
+//#########################################################################################################
+// Real Instant Smoke positions, instructions and video link
+alias instantanubis1 "setpos_exact -416.000000 -1608.000000 2.031250;setang_exact -27.125978 82.459740 0.000000"
+alias instantanubis1output "say_team #1 Window, jumpthrow"
+alias instantanubis1video "echo "
+
+alias instantanubis2 "setpos_exact -304.000000 -1608.000000 5.968750;setang_exact -17.247967 85.939529 0.000000"
+alias instantanubis2output "say_team #2 Window, jumpthrow"
+alias instantanubis2video "echo "
+
+alias instantanubis3 "setpos_exact -192.000000 -1608.000000 5.968750;setang_exact -22.329966 88.349831 0.000000"
+alias instantanubis3output "say_team #3 Window, jumpthrow"
+alias instantanubis3video "echo "
+
+alias instantanubis4 "setpos_exact -352.000000 -1696.000000 5.031249;setang_exact -12.012057 84.579468 0.000000"
+alias instantanubis4output "say_team #4 Window, jumpthrow"
+alias instantanubis4video "echo "
+
+alias instantanubis5 "setpos_exact -240.000000 -1696.000000 2.031250;setang_exact -10.538010 86.675491 0.000000"
+alias instantanubis5output "say_team #5 Window, jumpthrow "
+alias instantanubis5video "echo "
+
+alias instantanubis6 "setpos_exact -416.000000 -1608.000000 2.031250;setang_exact -29.017931 93.416161 0.000000"
+alias instantanubis6output "say_team #1 Con, jumpthrow"
+alias instantanubis6video "echo  "
+
+alias instantanubis7 "setpos_exact -304.000000 -1608.000000 5.968750;setang_exact -11.021991 93.794380 0.000000"
+alias instantanubis7output "say_team #2 Con, jumpthrow"
+alias instantanubis7video "echo  "
+
+alias instantanubis8 "setpos_exact -192.000000 -1608.000000 5.968750;setang_exact -10.911964 97.106415 0.000000"
+alias instantanubis8output "say_team #3 Con, jumpthrow"
+alias instantanubis8video "echo  "
+
+alias instantanubis9 "setpos_exact -352.000000 -1696.000000 5.031250;setang_exact -10.318018 91.180145 0.000000"
+alias instantanubis9output "say_team #4 Con, jumpthrow"
+alias instantanubis9video "echo  "
+
+alias instantanubis10 "setpos_exact -240.000000 -1696.000000 2.031250;setang_exact -12.694026 95.607635 0.000000"
+alias instantanubis10output "say_team #5 Con, jumpthrow"
+alias instantanubis10video "echo  "
+
+//#########################################################################################################
+
+// Spawn positions
+alias instantanubistrain1 "setpos -416.000000 -1608.000000 16.000000;setang 0.000000 150.000000 0.000000"
+alias instantanubistrain2 "setpos -304.000000 -1608.000000 16.000000;setang 0.000000 135.000000 0.000000"
+alias instantanubistrain3 "setpos -192.000000 -1608.000000 16.000000;setang 0.000000 90.000000 0.000000"
+alias instantanubistrain4 "setpos -352.000000 -1696.000000 16.000000;setang 0.000000 120.000000 0.000000"
+alias instantanubistrain5 "setpos -240.000000 -1696.000000 16.000000;setang 0.000000 900.000000 0.000000"
+
+
+
+
+// Set unused variable
+alias instantrepeat ""
+
+
+// Cycle through real instant smokes
+alias instantanubis .instantanubis1
+alias .instantanubis1 "instantanubis1; alias instantanubis .instantanubis2; alias instantrepeat instantanubis1; instantanubis1output; instantanubis1video"
+alias .instantanubis2 "instantanubis2; alias instantanubis .instantanubis3; alias instantrepeat instantanubis2; instantanubis2output; instantanubis2video"
+alias .instantanubis3 "instantanubis3; alias instantanubis .instantanubis4; alias instantrepeat instantanubis3; instantanubis3output; instantanubis3video"
+alias .instantanubis4 "instantanubis4; alias instantanubis .instantanubis5; alias instantrepeat instantanubis4; instantanubis4output; instantanubis4video"
+alias .instantanubis5 "instantanubis5; alias instantanubis .instantanubis6; alias instantrepeat instantanubis5; instantanubis5output; instantanubis5video"
+alias .instantanubis6 "instantanubis6; alias instantanubis .instantanubis7; alias instantrepeat instantanubis6; instantanubis6output; instantanubis6video"
+alias .instantanubis7 "instantanubis7; alias instantanubis .instantanubis8; alias instantrepeat instantanubis7; instantanubis7output; instantanubis7video"
+alias .instantanubis8 "instantanubis8; alias instantanubis .instantanubis9; alias instantrepeat instantanubis8; instantanubis8output; instantanubis8video"
+alias .instantanubis9 "instantanubis9; alias instantanubis .instantanubis10; alias instantrepeat instantanubis9; instantanubis9output; instantanubis9video"
+alias .instantanubis10 "instantanubis10; alias instantanubis .instantanubis1; alias instantrepeat instantanubis10; instantanubis10output; instantanubis10video"
+
+// Cycle through spawn positions
+alias instantanubistrain .instantanubistrain1
+alias .instantanubistrain1 "instantanubistrain1; alias instantanubistrain .instantanubistrain3; alias instantrepeat instantanubistrain1; alias instanthelp instanthelp1; say_team window"
+alias instanthelp1 "instantanubis1output; instantanubis1"
+
+alias .instantanubistrain2 "instantanubistrain2; alias instantanubistrain .instantanubistrain9; alias instantrepeat instantanubistrain2; alias instanthelp instanthelp2; say_team window"
+alias instanthelp2 "instantanubis2output; instantanubis2"
+
+alias .instantanubistrain3 "instantanubistrain3; alias instantanubistrain .instantanubistrain5; alias instantrepeat instantanubistrain3; alias instanthelp instanthelp3; say_team window"
+alias instanthelp3 "instantanubis3output; instantanubis3"
+
+alias .instantanubistrain4 "instantanubistrain4; alias instantanubistrain .instantanubistrain7; alias instantrepeat instantanubistrain4; alias instanthelp instanthelp4; say_team window"
+alias instanthelp4 "instantanubis4output; instantanubis4"
+
+alias .instantanubistrain5 "instantanubistrain5; alias instantanubistrain .instantanubistrain8; alias instantrepeat instantanubistrain5; alias instanthelp instanthelp5; say_team window"
+alias instanthelp5 "instantanubis5output; instantanubis5"
+
+alias .instantanubistrain6 "instantanubistrain1; alias instantanubistrain .instantanubistrain10; alias instantrepeat instantanubistrain1; alias instanthelp instanthelp6; say_team con"
+alias instanthelp6 "instantanubis6output; instantanubis6"
+
+alias .instantanubistrain7 "instantanubistrain2; alias instantanubistrain .instantanubistrain1; alias instantrepeat instantanubistrain2; alias instanthelp instanthelp7; say_team con"
+alias instanthelp7 "instantanubis7output; instantanubis7"
+
+alias .instantanubistrain8 "instantanubistrain3; alias instantanubistrain .instantanubistrain2; alias instantrepeat instantanubistrain3; alias instanthelp instanthelp8; say_team con"
+alias instanthelp8 "instantanubis8output; instantanubis8"
+
+alias .instantanubistrain9 "instantanubistrain4; alias instantanubistrain .instantanubistrain6; alias instantrepeat instantanubistrain4; alias instanthelp instanthelp9; say_team con"
+alias instanthelp9 "instantanubis9output; instantanubis9"
+
+alias .instantanubistrain10 "instantanubistrain5; alias instantanubistrain .instantanubistrain4; alias instantrepeat instantanubistrain5; alias instanthelp instanthelp10; say_team con"
+alias instanthelp10 "instantanubis10output; instantanubis10"
+
+//	Bind repeat function to keys
+alias instantkey2 instantrepeat
+alias instantkey3 instanthelp
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+//	Bind Wheelchair mode to instantkey1
+alias i1 instantwheelstart
+alias instantwheelstart "alias instantkey1 instantanubis; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #2 to train the same lineup again; slot8"
+//	Bind instantlove mode to instantkey1
+alias i2 instantlovestart
+alias instantlovestart "alias instantkey1 instantanubistrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again; slot8"
+
+//  .:::::                                                    .::::::::                            
+//  .::   .::              .::                     .::        .::                                  
+//  .::    .::   .::             .::             . .::        .::      .::     .::   .::    .: .:::
+//  .::    .:: .::  .::    .:: .::  .::         .: .::        .::::::   .::   .::  .:   .::  .::   
+//  .::    .::.::    .::   .::.::    .::      .::  .::        .::        .:: .::  .::::: .:: .::   
+//  .::   .::  .::  .::    .:: .::  .::      .:::: .: .::     .::         .:.::   .:         .::   
+//  .:::::       .::       .::   .::               .::        .::::::::    .::      .::::   .:::   
+//                      .:::                                                                       
+
+// Dojo powered by fREShCS
+// https://www.twitch.tv/freshcs_
+// https://www.youtube.com/@fREShCS
+//

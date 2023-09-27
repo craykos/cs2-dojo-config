@@ -3,6 +3,7 @@ sv_cheats true
 sv_grenade_trajectory_prac_trailtime 8
 sv_regeneration_force_on 1
 sv_falldamage_scale 0.0001
+sv_grenade_trajectory_prac_pipreview false
 sv_grenade_trajectory_prac_pipreview true
 bot_kick all
 sv_infinite_ammo 1
