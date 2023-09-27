@@ -40,8 +40,8 @@ F6 = Rethrow
 
 4.   Choose a practice mode
     - After writing `exec dojo` you are given 2 options.  
-      * To choose the [freestyle mode](https://github.com/craykos/cs2-dojo-config/edit/main/README.md#freestyle-mode) write `i1` in console.  
-      * To choose the [instant smokes mode](https://github.com/craykos/cs2-dojo-config/edit/main/README.md#instant-smokes-mode) write `i2` in console.
+      * To choose the [freestyle mode](https://github.com/craykos/cs2-dojo-config#freestyle-mode) write `i1` in console.  
+      * To choose the [instant smokes mode](https://github.com/craykos/cs2-dojo-config#instant-smokes-mode) write `i2` in console.
 
 ### freestyle mode
  - You start with an AK, molotov, smokegrenade, he and flash.  
