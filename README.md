@@ -47,8 +47,8 @@ F6 = Rethrow
  - You start with an AK, molotov, smokegrenade, he and flash.  
    M4A1-S, M4A4 and incendiary grenade are lying on the floor for optional use.
  - Move freely through the map and practice your utility
- - Clear smokes with `F5` (Default Key, changable in dojo.cfg)      
- - To rethrow grenades press `F6` (Default Key, changable in dojo.cfg)  
+ - Clear smokes with `F5` (Default Key, modify in dojo.cfg)      
+ - To rethrow grenades press `F6` (Default Key, modify in dojo.cfg)  
 
 Tip: Bind the command `noclip` to a key for fast movement through the map.  
   - To toggle noclip with the middle mouse button write  
@@ -67,22 +67,22 @@ Tip: Bind the command `noclip` to a key for fast movement through the map.
    To practice without help write `i2` in console.
 
 #### Practice with lineups ####
--  Press `F1` (Default Key, changable in dojo.cfg)  
+-  Press `F1` (Default Key, modify in dojo.cfg)  
    to cycle through the lineups of the instant smokes.
--  Press `F2` (Default Key, changable in dojo.cfg)  
+-  Press `F2` (Default Key, modify in dojo.cfg)  
    to get teleportet to the same lineup again.   
- - Clear smokes with `F5` (Default Key, changable in dojo.cfg)      
- - To rethrow grenades press `F6` (Default Key, changable in dojo.cfg)  
+ - Clear smokes with `F5` (Default Key, modify in dojo.cfg)      
+ - To rethrow grenades press `F6` (Default Key, modify in dojo.cfg)  
 
 #### Practice without help ####
--  Press `F1` (Default Key, changable in dojo.cfg)  
+-  Press `F1` (Default Key, modify in dojo.cfg)  
    to cycle through the spawn positions (The spawn locations are extracted directly out of the game files).
--  Press `F2` (Default Key, changable in dojo.cfg)  
+-  Press `F2` (Default Key, modify in dojo.cfg)  
    to get teleportet to the same spawn again.  
- -  Press `F4` (Default Key, changable in dojo.cfg)  
+ -  Press `F4` (Default Key, modify in dojo.cfg)  
    to reveal the lineup of the current instant smoke.    
- - Clear smokes with `F5` (Default Key, changable in dojo.cfg)      
- - To rethrow grenades press `F6` (Default Key, changable in dojo.cfg) 
+ - Clear smokes with `F5` (Default Key, modify in dojo.cfg)      
+ - To rethrow grenades press `F6` (Default Key, modify in dojo.cfg) 
 
 Tip: Bind the command `noclip` to a key for fast movement through the map.  
   - To toggle noclip with the middle mouse button write  
