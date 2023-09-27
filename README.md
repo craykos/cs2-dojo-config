@@ -66,7 +66,7 @@ Tip: Bind the command `noclip` to a key for fast movement through the map.
    To practice with lineups write `i1` in console.  
    To practice without help write `i2` in console.
 
-Practice with lineups
+#### Practice with lineups ####
 -  Press `F1` (Default Key, changable in dojo.cfg)  
    to cycle through the lineups of the instant smokes.
 -  Press `F2` (Default Key, changable in dojo.cfg)  
@@ -74,7 +74,7 @@ Practice with lineups
  - Clear smokes with `F5` (Default Key, changable in dojo.cfg)      
  - To rethrow grenades press `F6` (Default Key, changable in dojo.cfg)  
 
-Practice without help
+#### Practice without help ####
 -  Press `F1` (Default Key, changable in dojo.cfg)  
    to cycle through the spawn positions (The spawn locations are extracted directly out of the game files).
 -  Press `F2` (Default Key, changable in dojo.cfg)  
