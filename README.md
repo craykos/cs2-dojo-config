@@ -14,7 +14,7 @@ Practice tool for utility and instant smokes in cs2
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
-ᴠ. 3.18
+ᴠ. 3.19
 
 Instant smokes for: ancient, anubis & mirage
 
