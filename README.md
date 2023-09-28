@@ -24,11 +24,11 @@
 2.   Set the keys for the program in the file dojo.cfg   
 
 Default Keys:  
-F1 = Next spawn  
-F2 = Same spawn again  
-F4 = Reveals lineup  
-F5 = Clears smoke  
-F6 = Rethrow  
+F4 = Next spawn  
+F5 = Same spawn again  
+F6 = Reveals lineup  
+F7 = Clears smoke  
+F8 = Rethrow  
 
 ## How to use:
 1.   Open CS2 -> press `Play` -> `Practice` -> `Competitive` 
