@@ -14,12 +14,12 @@
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
-ᴠ. 3.20
+ᴠ. 3.21
 
 **Instant smokes for: ancient, anubis & mirage**
 
 ## Installation: 
-1.    Copy files for the limited test of CS2 to the folder  
+1.    Copy files for CS2 to the folder  
      Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg    
 2.   Set the keys for the program in the file dojo.cfg   
 
@@ -69,7 +69,7 @@ Tip: Bind the command `noclip` to a key for fast movement through the map.
 #### Practice with lineups ####
 -  Press `F1` (Default Key, modify in dojo.cfg)  
    to cycle through the lineups of the instant smokes.
--  Press `F2` (Default Key, modify in dojo.cfg)  
+-  Press `F4` (Default Key, modify in dojo.cfg)  
    to get teleportet to the same lineup again.   
  - Clear smokes with `F5` (Default Key, modify in dojo.cfg)      
  - To rethrow grenades press `F6` (Default Key, modify in dojo.cfg)  

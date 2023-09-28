@@ -13,7 +13,7 @@ echo
 
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
-alias instantanubis1 "setpos_exact -416.000000 -1608.000000 2.031250;setang_exact -27.125978 82.459740 0.000000"
+alias instantanubis1 "setpos_exact -416.000000 -1608.000000 5.031250;setang_exact -27.125978 82.459740 0.000000"
 alias instantanubis1output "say_team #1 Window, jumpthrow"
 alias instantanubis1video "echo "
 
@@ -29,11 +29,11 @@ alias instantanubis4 "setpos_exact -352.000000 -1696.000000 5.031249;setang_exac
 alias instantanubis4output "say_team #4 Window, jumpthrow"
 alias instantanubis4video "echo "
 
-alias instantanubis5 "setpos_exact -240.000000 -1696.000000 2.031250;setang_exact -10.538010 86.675491 0.000000"
+alias instantanubis5 "setpos_exact -240.000000 -1696.000000 5.031250;setang_exact -10.538010 86.675491 0.000000"
 alias instantanubis5output "say_team #5 Window, jumpthrow "
 alias instantanubis5video "echo "
 
-alias instantanubis6 "setpos_exact -416.000000 -1608.000000 2.031250;setang_exact -29.017931 93.416161 0.000000"
+alias instantanubis6 "setpos_exact -416.000000 -1608.000000 5.031250;setang_exact -29.017931 93.416161 0.000000"
 alias instantanubis6output "say_team #1 Con, jumpthrow"
 alias instantanubis6video "echo  "
 
@@ -49,7 +49,7 @@ alias instantanubis9 "setpos_exact -352.000000 -1696.000000 5.031250;setang_exac
 alias instantanubis9output "say_team #4 Con, jumpthrow"
 alias instantanubis9video "echo  "
 
-alias instantanubis10 "setpos_exact -240.000000 -1696.000000 2.031250;setang_exact -12.694026 95.607635 0.000000"
+alias instantanubis10 "setpos_exact -240.000000 -1696.000000 5.031250;setang_exact -12.694026 95.607635 0.000000"
 alias instantanubis10output "say_team #5 Con, jumpthrow"
 alias instantanubis10video "echo  "
 
@@ -121,10 +121,10 @@ alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
 alias instantkey5 "sv_rethrow_last_grenade"
 //	Bind Wheelchair mode to instantkey1
 alias i1 instantwheelstart
-alias instantwheelstart "alias instantkey1 instantanubis; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #2 to train the same lineup again; slot8"
+alias instantwheelstart "alias instantkey1 instantanubis; alias instanthelp instantrepeat; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again; slot8"
 //	Bind instantlove mode to instantkey1
 alias i2 instantlovestart
-alias instantlovestart "alias instantkey1 instantanubistrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again; slot8"
+alias instantlovestart "alias instantkey1 instantanubistrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup; slot8"
 
 //  .:::::                                                    .::::::::                            
 //  .::   .::              .::                     .::        .::                                  

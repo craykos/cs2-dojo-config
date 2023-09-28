@@ -1,6 +1,9 @@
 // Clear alias
 alias i1 ""
 alias i2 ""
+alias instantkey1 "say_team You are in freestyle mode. Write dojo in console to restart the config"
+alias instantkey2 "say_team You are in freestyle mode. Write dojo in console to restart the config"
+alias instantkey3 "say_team You are in freestyle mode. Write dojo in console to restart the config"
 alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
 alias instantkey5 "sv_rethrow_last_grenade"
 

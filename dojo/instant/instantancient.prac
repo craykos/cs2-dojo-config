@@ -88,10 +88,10 @@ alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
 alias instantkey5 "sv_rethrow_last_grenade"
 //	Bind Wheelchair mode to instantkey1
 alias i1 instantwheelstart
-alias instantwheelstart "alias instantkey1 instantancient; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #2 to train the same lineup again; slot8"
+alias instantwheelstart "alias instantkey1 instantancient; alias instanthelp instantrepeat; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again; slot8"
 //	Bind instantlove mode to instantkey1
 alias i2 instantlovestart
-alias instantlovestart "alias instantkey1 instantancienttrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again; slot8"
+alias instantlovestart "alias instantkey1 instantancienttrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup; slot8"
 
 //  .:::::                                                    .::::::::                            
 //  .::   .::              .::                     .::        .::                                  

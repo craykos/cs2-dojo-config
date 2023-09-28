@@ -29,8 +29,8 @@ alias instantmirage4 "setpos 1376.000000 -16.000000 -153.906189;setang -32.63777
 alias instantmirage4output "say_team Instant Smoke #4,crouch a bit foreward + jumpthrow"
 alias instantmirage4video "echo "
 
-alias instantmirage5 "setpos 1296.000000 -352.000000 -153.906189;setang -39.393188 -174.176895 0.000000"
-alias instantmirage5output "say_team Instant Smoke #5, w + jumpthrow, a bit higher ok"
+alias instantmirage5 "setpos 1296.000000 -352.000000 -153.906189;setang -41.153137 -174.198914 0.000000"
+alias instantmirage5output "say_team Instant Smoke #5, w + jumpthrow"
 alias instantmirage5video "echo "
 
 alias instantmirage6 "setpos 1296.000000 -256.000000 -103.970612;setang -42.017754 -171.765671 0.000000"
@@ -143,11 +143,10 @@ alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
 alias instantkey5 "sv_rethrow_last_grenade"
 //	Bind Wheelchair mode to instantkey1
 alias i1 instantwheelstart
-alias instantwheelstart "alias instantkey1 instantmirage; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #2 to train the same lineup again; slot8"
+alias instantwheelstart "alias instantkey1 instantmirage; alias instanthelp instantrepeat;toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again; slot8"
 //	Bind instantlove mode to instantkey1
 alias i2 instantlovestart
-alias instantlovestart "alias instantkey1 instantmiragetrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again; slot8"
-
+alias instantlovestart "alias instantkey1 instantmiragetrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup; slot8"
 
 
 //  .:::::                                                    .::::::::                            
