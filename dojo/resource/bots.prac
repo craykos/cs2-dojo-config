@@ -1,0 +1,8 @@
+//Bot commands 
+alias bplace "bot_add; bot_place"
+alias bkick "bot_kick"                   
+
+// bot crouch toggle
+alias botcrouch "bot_crouch true; alias togglebot botstand"
+alias botstand  "bot_crouch false; alias togglebot botcrouch"
+alias togglebot botcrouch

@@ -14,14 +14,14 @@
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
-ᴠ. 3.22
+ᴠ. 3.30
 
 **Instant smokes for: ancient, anubis & mirage**
 
 ## Installation: 
 1.    Copy files for CS2 to the folder  
      Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg    
-2.   Set the keys for the program in the file dojo.cfg   
+2.   Set the keys for the program in the filedojobindings.cfg   
 
 Default Keys:  
 F4 = Next spawn  
@@ -29,6 +29,10 @@ F5 = Same spawn again
 F6 = Reveals lineup  
 F7 = Clears smoke  
 F8 = Rethrow  
+________________
+j = Places bot        
+k = Kicks all bots         
+l = Toggle bot crouch 
 
 ## How to use:
 1.   Open CS2 -> press `Play` -> `Practice` -> `Competitive` 
@@ -47,8 +51,11 @@ F8 = Rethrow
  - You start with an AK, molotov, smokegrenade, he and flash.  
    M4A1-S, M4A4 and incendiary grenade are lying on the floor for optional use.
  - Move freely through the map and practice your utility
- - Clear smokes with `F7` (Default Key, modify in dojo.cfg)      
- - To rethrow grenades press `F8` (Default Key, modify in dojo.cfg)  
+ - Clear smokes with `F7` (Default Key, modify in dojobindings.cfg)      
+ - To rethrow grenades press `F8` (Default Key, modify in dojobindings.cfg)  
+ - To place a bot press `j` (Default Key, modify in dojobindings.cfg)  
+ - To kick all bots press `k` (Default Key, modify in dojobindings.cfg)  
+ - To toggle between crouch and standing bots press `l` (Default Key, modify in dojobindings.cfg)
 
 Tip: Bind the command `noclip` to a key for fast movement through the map.  
   - To toggle noclip with the middle mouse button write  
@@ -67,22 +74,22 @@ Tip: Bind the command `noclip` to a key for fast movement through the map.
    To practice without help write `i2` in console.
 
 #### Practice with lineups ####
--  Press `F4` (Default Key, modify in dojo.cfg)  
+-  Press `F4` (Default Key, modify in dojobindings.cfg)  
    to cycle through the lineups of the instant smokes.
--  Press `F6` (Default Key, modify in dojo.cfg)  
+-  Press `F6` (Default Key, modify in dojobindings.cfg)  
    to get teleportet to the same lineup again.   
- - Clear smokes with `F7` (Default Key, modify in dojo.cfg)      
- - To rethrow grenades press `F8` (Default Key, modify in dojo.cfg)  
+ - Clear smokes with `F7` (Default Key, modify in dojobindings.cfg)      
+ - To rethrow grenades press `F8` (Default Key, modify in dojobindings.cfg)  
 
 #### Practice without help ####
--  Press `F4` (Default Key, modify in dojo.cfg)  
+-  Press `F4` (Default Key, modify in dojobindings.cfg)  
    to cycle through the spawn positions (The spawn locations are extracted directly out of the game files).
--  Press `F5` (Default Key, modify in dojo.cfg)  
+-  Press `F5` (Default Key, modify in dojobindings.cfg)  
    to get teleportet to the same spawn again.  
- -  Press `F6` (Default Key, modify in dojo.cfg)  
+ -  Press `F6` (Default Key, modify in dojobindings.cfg)  
    to reveal the lineup of the current instant smoke.    
- - Clear smokes with `F7` (Default Key, modify in dojo.cfg)      
- - To rethrow grenades press `F8` (Default Key, modify in dojo.cfg) 
+ - Clear smokes with `F7` (Default Key, modify in dojobindings.cfg)      
+ - To rethrow grenades press `F8` (Default Key, modify in dojobindings.cfg) 
 
 Tip: Bind the command `noclip` to a key for fast movement through the map.  
   - To toggle noclip with the middle mouse button write  

@@ -9,6 +9,7 @@ alias instantkey5 "sv_rethrow_last_grenade"
 
 // game commands for offline server
 exec "dojo\resource\serversettingsoffline.prac"
+exec "dojo\resource\bots.prac"
 
 //Confirm start of practice mode
 toggleconsole 
