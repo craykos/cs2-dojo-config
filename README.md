@@ -21,7 +21,7 @@
 ## Installation: 
 1.    Copy files for CS2 to the folder  
      Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg    
-2.   Set the keys for the program in the filedojobindings.cfg   
+2.   Set the keys for the program in the file dojobindings.cfg   
 
 Default Keys:  
 F4 = Next spawn  
