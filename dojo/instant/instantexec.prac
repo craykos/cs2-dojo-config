@@ -4,6 +4,9 @@ alias imirage "exec dojo\instant\instantmirage.prac"
 alias ianubis "exec dojo\instant\instantanubis.prac"
 alias i1 ""
 alias i2 ""
+alias bplace "say_team Bot functions are available in freestyle mode. Write dojo in console to restart the config"
+alias bkick "say_team Bot functions are available in freestyle mode. Write dojo in console to restart the config"                   
+alias togglebot "say_team Bot functions are available in freestyle mode. Write dojo in console to restart the config"
 
 echo
 echo Load instant smokes
