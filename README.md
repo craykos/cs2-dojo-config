@@ -28,8 +28,8 @@ F4 = Next spawn
 F5 = Same spawn again  
 F6 = Reveals lineup  
 F7 = Clears smoke  
-F8 = Rethrow  
-________________
+F8 = Rethrow 
+ 
 j = Places bot        
 k = Kicks all bots         
 l = Toggle bot crouch 
