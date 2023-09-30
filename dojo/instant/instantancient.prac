@@ -29,13 +29,7 @@ alias instantancient4 "setpos -632.028198 -2037.201294 -82.968750;setang -27.516
 alias instantancient4output "say_team #4 Late Deep Window Smoke, jumpthrow"
 alias instantancient4video "echo "
 
-//alias instantancient5 ""
-//alias instantancient5output "say_team #5 "
-//alias instantancient5video "echo "
 
-//alias instantancient6 ""
-//alias instantancient6output "say_team #6 "
-//alias instantancient6video "echo  "
 //#########################################################################################################
 
 // Spawn positions
@@ -43,8 +37,6 @@ alias instantancienttrain1 "setpos_exact -584.000000 -2288.000000 -156.000000;se
 alias instantancienttrain2 "setpos_exact -392.000000 -2224.000000 -156.000000;setang_exact 0.000000 90.000000 0.000000"
 alias instantancienttrain3 "setpos_exact -328.000000 -2288.000000 -156.000000;setang_exact 0.000000 90.000000 0.000000"
 alias instantancienttrain4 "setpos -582.875916 -2201.312256 -99.255737;setang -1.512017 90.414375 0.000000"
-//alias instantancienttrain5 ""
-//alias instantancienttrain6 ""
 
 
 
@@ -58,8 +50,6 @@ alias .instantancient1 "instantancient1; alias instantancient .instantancient2; 
 alias .instantancient2 "instantancient2; alias instantancient .instantancient3; alias instantrepeat instantancient2; instantancient2output; instantancient2video"
 alias .instantancient3 "instantancient3; alias instantancient .instantancient4; alias instantrepeat instantancient3; instantancient3output; instantancient3video"
 alias .instantancient4 "instantancient4; alias instantancient .instantancient1; alias instantrepeat instantancient4; instantancient4output; instantancient4video"
-//alias .instantancient5 "instantancient5; alias instantancient .instantancient6; alias instantrepeat instantancient5; instantancient5output; instantancient5video"
-//alias .instantancient6 "instantancient6; alias instantancient .instantancient1; alias instantrepeat instantancient6; instantancient6output; instantancient6video"
 
 // Cycle through spawn positions
 alias instantancienttrain .instantancienttrain1
@@ -74,13 +64,6 @@ alias instanthelp3 "instantancient3output; instantancient3"
 
 alias .instantancienttrain4 "instantancienttrain4; alias instantancienttrain .instantancienttrain2; alias instantrepeat instantancienttrain4; alias instanthelp instanthelp4; say_team Window"
 alias instanthelp4 "instantancient4output; instantancient4"
-
-//alias .instantancienttrain5 "instantancienttrain5; alias instantancienttrain .instantancienttrain2; alias instantrepeat instantancienttrain5; alias instanthelp instanthelp5; say_team Donut"
-//alias instanthelp5 "instantancient5output; instantancient5"
-
-//alias .instantancienttrain6 "instantancienttrain6; alias instantancienttrain .instantancienttrain4; alias instantrepeat instantancienttrain6; alias instanthelp instanthelp6; say_team Window"
-//alias instanthelp6 "instantancient6output; instantancient6"
-//old 1 3 5 2 6 4 1
 
 //	Bind repeat function to key2
 alias instantkey2 instantrepeat
