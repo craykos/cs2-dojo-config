@@ -25,9 +25,25 @@ alias instantancient3 "setpos_exact -328.000000 -2288.000000 -156.000000;setang_
 alias instantancient3output "say_team #3 Instant Smoke Spawn 5 Window,  w jumpthrow, higher ok, lower not"
 alias instantancient3video "echo "
 
-alias instantancient4 "setpos -632.028198 -2037.201294 -82.968750;setang -27.516087 86.921837 0.000000"
-alias instantancient4output "say_team #4 Late Deep Window Smoke, jumpthrow"
+alias instantancient4 "setpos -192.000000 1696.000000 29.000000;setang -32.016529 -108.572388 0.000000"
+alias instantancient4output "say_team #4 CT Instant L Smoke, walk + jumpthrow"
 alias instantancient4video "echo "
+
+alias instantancient5 "setpos_exact -256.000000 1728.000000 29.000000;setang -26.842178 -107.140221 0.000000"
+alias instantancient5output "say_team #5 CT Instant L Smoke, walk + jumpthrow"
+alias instantancient5video "echo "
+
+alias instantancient6 "setpos_exact -352.000000 1728.000000 31.000000;setang -27.258087 -105.215515 0.000000"
+alias instantancient6output "say_team #6 CT Instant L Smoke, walk + jumpthrow"
+alias instantancient6video "echo "
+
+alias instantancient7 "setpos_exact -448.000000 1727.991455 33.000000;setang -29.706696 -103.290024 0.000000"
+alias instantancient7output "say_team #7 CT Instant L Smoke, walk + jumpthrow"
+alias instantancient7video "echo "
+
+alias instantancient8 "setpos -512.000000 1696.000000 29.000000;setang -26.549553 -101.750763 0.000000"
+alias instantancient8output "say_team #8 CT Instant L Smoke, walk + jumpthrow"
+alias instantancient8video "echo "
 
 
 //#########################################################################################################
@@ -36,7 +52,12 @@ alias instantancient4video "echo "
 alias instantancienttrain1 "setpos_exact -584.000000 -2288.000000 -156.000000;setang_exact 0.000000 90.000000 0.000000"
 alias instantancienttrain2 "setpos_exact -392.000000 -2224.000000 -156.000000;setang_exact 0.000000 90.000000 0.000000"
 alias instantancienttrain3 "setpos_exact -328.000000 -2288.000000 -156.000000;setang_exact 0.000000 90.000000 0.000000"
-alias instantancienttrain4 "setpos -582.875916 -2201.312256 -99.255737;setang -1.512017 90.414375 0.000000"
+alias instantancienttrain4 "setpos_exact  -192.000000 1696.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
+alias instantancienttrain5 "setpos_exact  -256.000000 1728.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
+alias instantancienttrain6 "setpos_exact  -352.000000 1728.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
+alias instantancienttrain7 "setpos_exact  -448.000000 1728.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
+alias instantancienttrain8 "setpos_exact  -512.000000 1696.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
+
 
 
 
@@ -49,21 +70,37 @@ alias instantancient .instantancient1
 alias .instantancient1 "instantancient1; alias instantancient .instantancient2; alias instantrepeat instantancient1; instantancient1output; instantancient1video"
 alias .instantancient2 "instantancient2; alias instantancient .instantancient3; alias instantrepeat instantancient2; instantancient2output; instantancient2video"
 alias .instantancient3 "instantancient3; alias instantancient .instantancient4; alias instantrepeat instantancient3; instantancient3output; instantancient3video"
-alias .instantancient4 "instantancient4; alias instantancient .instantancient1; alias instantrepeat instantancient4; instantancient4output; instantancient4video"
+alias .instantancient4 "instantancient4; alias instantancient .instantancient5; alias instantrepeat instantancient4; instantancient4output; instantancient4video"
+alias .instantancient5 "instantancient5; alias instantancient .instantancient6; alias instantrepeat instantancient5; instantancient5output; instantancient5video"
+alias .instantancient6 "instantancient6; alias instantancient .instantancient7; alias instantrepeat instantancient6; instantancient6output; instantancient6video"
+alias .instantancient7 "instantancient7; alias instantancient .instantancient8; alias instantrepeat instantancient7; instantancient7output; instantancient7video"
+alias .instantancient8 "instantancient8; alias instantancient .instantancient1; alias instantrepeat instantancient8; instantancient8output; instantancient8video"
 
 // Cycle through spawn positions
 alias instantancienttrain .instantancienttrain1
-alias .instantancienttrain1 "instantancienttrain1; alias instantancienttrain .instantancienttrain3; alias instantrepeat instantancienttrain1; alias instanthelp instanthelp1; say_team Window"
+alias .instantancienttrain1 "instantancienttrain1; alias instantancienttrain .instantancienttrain3; alias instantrepeat instantancienttrain1; alias instanthelp instanthelp1"
 alias instanthelp1 "instantancient1output; instantancient1"
 
-alias .instantancienttrain2 "instantancienttrain2; alias instantancienttrain .instantancienttrain1; alias instantrepeat instantancienttrain2; alias instanthelp instanthelp2; say_team Window"
+alias .instantancienttrain2 "instantancienttrain2; alias instantancienttrain .instantancienttrain4; alias instantrepeat instantancienttrain2; alias instanthelp instanthelp2"
 alias instanthelp2 "instantancient2output; instantancient2"
 
-alias .instantancienttrain3 "instantancienttrain3; alias instantancienttrain .instantancienttrain4; alias instantrepeat instantancienttrain3; alias instanthelp instanthelp3; say_team Window"
+alias .instantancienttrain3 "instantancienttrain3; alias instantancienttrain .instantancienttrain2; alias instantrepeat instantancienttrain3; alias instanthelp instanthelp3"
 alias instanthelp3 "instantancient3output; instantancient3"
 
-alias .instantancienttrain4 "instantancienttrain4; alias instantancienttrain .instantancienttrain2; alias instantrepeat instantancienttrain4; alias instanthelp instanthelp4; say_team Window"
+alias .instantancienttrain4 "instantancienttrain4; alias instantancienttrain .instantancienttrain6; alias instantrepeat instantancienttrain4; alias instanthelp instanthelp4"
 alias instanthelp4 "instantancient4output; instantancient4"
+
+alias .instantancienttrain5 "instantancienttrain5; alias instantancienttrain .instantancienttrain7; alias instantrepeat instantancienttrain5; alias instanthelp instanthelp5"
+alias instanthelp5 "instantancient5output; instantancient5"
+
+alias .instantancienttrain6 "instantancienttrain6; alias instantancienttrain .instantancienttrain8; alias instantrepeat instantancienttrain6; alias instanthelp instanthelp6"
+alias instanthelp6 "instantancient6output; instantancient6"
+
+alias .instantancienttrain7 "instantancienttrain7; alias instantancienttrain .instantancienttrain1; alias instantrepeat instantancienttrain7; alias instanthelp instanthelp7"
+alias instanthelp7 "instantancient7output; instantancient7"
+
+alias .instantancienttrain8 "instantancienttrain8; alias instantancienttrain .instantancienttrain5; alias instantrepeat instantancienttrain8; alias instanthelp instanthelp8"
+alias instanthelp8 "instantancient8output; instantancient8"
 
 //	Bind repeat function to key2
 alias instantkey2 instantrepeat
@@ -91,4 +128,5 @@ alias instantlovestart "alias instantkey1 instantancienttrain; toggleconsole; sa
 // https://www.youtube.com/@fREShCS
 //
 // credit to NartOutHere for the first set of ancient instant smokes https://youtu.be/U8EVc09ct5E
+// credit to FNScence https://youtu.be/fd6gRZDOCps
 // The spawn locations are extracted directly out of the game files
