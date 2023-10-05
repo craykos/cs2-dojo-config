@@ -18,6 +18,9 @@
 
 **Instant smokes for: ancient, anubis & mirage**
 
+Video Guide:
+https://youtu.be/JBK9XNZ9MwE
+
 ## Installation: 
 1.    Copy files `dojo.cfg, dojobindings.cfg` and the `folder dojo` for CS2 to the folder  
      Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg    
