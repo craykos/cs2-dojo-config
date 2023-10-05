@@ -13,43 +13,43 @@ echo
 
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
-alias instantanubis1 "setpos_exact -416.000000 -1608.000000 5.031250;setang_exact -27.125978 82.459740 0.000000"
+alias instantanubis1 "setpos_exact -416.000000 -1608.000000 16.000000;setang_exact -27.125978 82.459740 0.000000"
 alias instantanubis1output "say_team #1 Window, jumpthrow"
 alias instantanubis1video "echo "
 
-alias instantanubis2 "setpos_exact -304.000000 -1608.000000 5.968750;setang_exact -17.247967 85.939529 0.000000"
+alias instantanubis2 "setpos_exact -304.000000 -1608.000000 16.000000;setang_exact -17.247967 85.939529 0.000000"
 alias instantanubis2output "say_team #2 Window, jumpthrow"
 alias instantanubis2video "echo "
 
-alias instantanubis3 "setpos_exact -192.000000 -1608.000000 5.968750;setang_exact -22.329966 88.349831 0.000000"
+alias instantanubis3 "setpos_exact -192.000000 -1608.000000 16.000000;setang_exact -22.329966 88.349831 0.000000"
 alias instantanubis3output "say_team #3 Window, jumpthrow"
 alias instantanubis3video "echo "
 
-alias instantanubis4 "setpos_exact -352.000000 -1696.000000 5.031249;setang_exact -12.012057 84.579468 0.000000"
+alias instantanubis4 "setpos_exact -352.000000 -1696.000000 16.000000;setang_exact -12.012057 84.579468 0.000000"
 alias instantanubis4output "say_team #4 Window, jumpthrow"
 alias instantanubis4video "echo "
 
-alias instantanubis5 "setpos_exact -240.000000 -1696.000000 5.031250;setang_exact -10.538010 86.675491 0.000000"
+alias instantanubis5 "setpos_exact -240.000000 -1696.000000 16.000000;setang_exact -10.538010 86.675491 0.000000"
 alias instantanubis5output "say_team #5 Window, jumpthrow "
 alias instantanubis5video "echo "
 
-alias instantanubis6 "setpos_exact -416.000000 -1608.000000 5.031250;setang_exact -29.017931 93.416161 0.000000"
+alias instantanubis6 "setpos_exact -416.000000 -1608.000000 16.000000;setang_exact -29.017931 93.416161 0.000000"
 alias instantanubis6output "say_team #1 Con, jumpthrow"
 alias instantanubis6video "echo  "
 
-alias instantanubis7 "setpos_exact -304.000000 -1608.000000 5.968750;setang_exact -11.021991 93.794380 0.000000"
+alias instantanubis7 "setpos_exact -304.000000 -1608.000000 16.000000;setang_exact -11.021991 93.794380 0.000000"
 alias instantanubis7output "say_team #2 Con, jumpthrow"
 alias instantanubis7video "echo  "
 
-alias instantanubis8 "setpos_exact -192.000000 -1608.000000 5.968750;setang_exact -10.911964 97.106415 0.000000"
+alias instantanubis8 "setpos_exact -192.000000 -1608.000000 16.000000;setang_exact -10.911964 97.106415 0.000000"
 alias instantanubis8output "say_team #3 Con, jumpthrow"
 alias instantanubis8video "echo  "
 
-alias instantanubis9 "setpos_exact -352.000000 -1696.000000 5.031250;setang_exact -10.318018 91.180145 0.000000"
+alias instantanubis9 "setpos_exact -352.000000 -1696.000000 16.000000;setang_exact -10.318018 91.180145 0.000000"
 alias instantanubis9output "say_team #4 Con, jumpthrow"
 alias instantanubis9video "echo  "
 
-alias instantanubis10 "setpos_exact -240.000000 -1696.000000 5.031250;setang_exact -12.694026 95.607635 0.000000"
+alias instantanubis10 "setpos_exact -240.000000 -1696.000000 16.000000;setang_exact -12.694026 95.607635 0.000000"
 alias instantanubis10output "say_team #5 Con, jumpthrow"
 alias instantanubis10video "echo  "
 
@@ -60,7 +60,7 @@ alias instantanubistrain1 "setpos -416.000000 -1608.000000 16.000000;setang 0.00
 alias instantanubistrain2 "setpos -304.000000 -1608.000000 16.000000;setang 0.000000 135.000000 0.000000"
 alias instantanubistrain3 "setpos -192.000000 -1608.000000 16.000000;setang 0.000000 90.000000 0.000000"
 alias instantanubistrain4 "setpos -352.000000 -1696.000000 16.000000;setang 0.000000 120.000000 0.000000"
-alias instantanubistrain5 "setpos -240.000000 -1696.000000 16.000000;setang 0.000000 900.000000 0.000000"
+alias instantanubistrain5 "setpos -240.000000 -1696.000000 16.000000;setang 0.000000 90.000000 0.000000"
 
 
 
