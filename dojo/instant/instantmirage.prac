@@ -14,52 +14,98 @@ echo
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
 alias instantmirage1 "setpos 1376.000000 -304.000000 -153.906189;setang -31.970390 -173.095184 0.000000"
-alias instantmirage1output "say_team Instant Smoke #1, w + jumpthrow"
+alias instantmirage1output "say_team Instant Window Smoke #1, w + jumpthrow"
 alias instantmirage1video "echo "
 
 alias instantmirage2 "setpos 1376.000000 -208.000000 -149.926956;setang -30.106964 -171.253052 0.000000"
-alias instantmirage2output "say_team Instant Smoke #2, w + jumpthrow"
+alias instantmirage2output "say_team Instant Window Smoke #2, w + jumpthrow"
 alias instantmirage2video "echo "
 
 alias instantmirage3 "setpos 1376.000000 -112.000000 -149.902557;setang -34.187962 -169.067566 0.000000"
-alias instantmirage3output "say_team Instant Smoke #3, w + jumpthrow"
+alias instantmirage3output "say_team Instant Window Smoke #3, w + jumpthrow"
 alias instantmirage3video "echo "
 
 alias instantmirage4 "setpos 1376.000000 -16.000000 -153.906189;setang -32.637779 -167.554626 0.000000"
-alias instantmirage4output "say_team Instant Smoke #4,crouch a bit foreward + jumpthrow"
+alias instantmirage4output "say_team Instant Window Smoke #4,crouch a bit foreward + jumpthrow"
 alias instantmirage4video "echo "
 
 alias instantmirage5 "setpos 1296.000000 -352.000000 -153.906189;setang -41.153137 -174.198914 0.000000"
-alias instantmirage5output "say_team Instant Smoke #5, w + jumpthrow"
+alias instantmirage5output "say_team Instant Window Smoke #5, w + jumpthrow"
 alias instantmirage5video "echo "
 
 alias instantmirage6 "setpos 1296.000000 -256.000000 -103.970612;setang -42.017754 -171.765671 0.000000"
-alias instantmirage6output "say_team Instant Smoke #6, w + jumpthrow"
+alias instantmirage6output "say_team Instant Window Smoke #6, w + jumpthrow"
 alias instantmirage6video "echo "
 
 alias instantmirage7 "setpos 1296.000000 -160.000000 -103.968750;setang -38.902626 -169.438614 0.000000"
-alias instantmirage7output "say_team Instant Smoke #7, w + jumpthrow"
+alias instantmirage7output "say_team Instant Window Smoke #7, w + jumpthrow"
 alias instantmirage7video "echo "
 
 alias instantmirage8 "setpos 1296.000000 -64.000000 -153.906189;setang -28.274370 -168.031006 0.000000"
-alias instantmirage8output "say_team Instant Smoke #8, w + jumpthrow"
+alias instantmirage8output "say_team Instant Window Smoke #8, w + jumpthrow"
 alias instantmirage8video "echo "
 
 alias instantmirage9 "setpos 1296.000000 32.000000 -153.930603;setang -28.951996 -165.981461 0.000000"
-alias instantmirage9output "say_team Instant Smoke #9, w + jumpthrow"
+alias instantmirage9output "say_team Instant Window Smoke #9, w + jumpthrow"
 alias instantmirage9video "echo "
 
 alias instantmirage10 "setpos 1216.000000 -211.000000 -100.611038;setang -45.979954 -170.366623 0.000000"
-alias instantmirage10output "say_team Instant Smoke #10, w + jumpthrow"
+alias instantmirage10output "say_team Instant Window Smoke #10, w + jumpthrow"
 alias instantmirage10video "echo "
 
 alias instantmirage11 "setpos 1216.000000 -115.000000 -102.953156;setang -44.087891 -168.536072 0.000000"
-alias instantmirage11output "say_team Instant Smoke #11, w + jumpthrow"
+alias instantmirage11output "say_team Instant Window Smoke #11, w + jumpthrow"
 alias instantmirage11video "echo "
 
 alias instantmirage12 "setpos 1216.000000 -16.000000 -102.953156;setang -45.011959 -166.621872 0.000000"
-alias instantmirage12output "say_team Instant Smoke #12, w + jumpthrow"
+alias instantmirage12output "say_team Instant Window Smoke #12, w + jumpthrow"
 alias instantmirage12video "echo "
+
+alias instantmirage13 "setpos 1376.000000 -304.000000 -144.000000;setang -35.749878 -155.902496 0.000000"
+alias instantmirage13output "say_team Instant Topcon Smoke #1, w + jumpthrow"
+alias instantmirage13video "echo "
+
+alias instantmirage14 "setpos 1376.000000 -208.000000 -102.918365;setang -26.289928 -154.274155 0.000000"
+alias instantmirage14output "say_team Instant Topcon Smoke #2, w + jumpthrow"
+alias instantmirage14video "echo "
+
+alias instantmirage15 "setpos 1376.000000 -112.000000 -102.918365;setang -27.345909 -152.537430 0.000000"
+alias instantmirage15output "say_team Instant Topcon Smoke #3, +W Crouch-Jumpthrow wenn an heller Kante"
+alias instantmirage15video "echo "
+
+alias instantmirage16 "setpos 1376.000000 -16.000000 -103.968750;setang -26.465927 -150.051468 0.000000"
+alias instantmirage16output "say_team Instant Topcon Smoke #4, +W Crouch-Jumpthrow wenn man helle Kante erreicht"
+alias instantmirage16video "echo "
+
+alias instantmirage17 "setpos 1296.000000 -352.000000 -103.968750;setang -43.845924 -156.210693 0.000000"
+alias instantmirage17output "say_team Instant Topcon Smoke #5, w + jumpthrow"
+alias instantmirage17video "echo "
+
+alias instantmirage18 "setpos 1296.000000 -256.000000 -103.968750;setang -34.341866 -154.296738 0.000000"
+alias instantmirage18output "say_team Instant Topcon Smoke #6, w + jumpthrow"
+alias instantmirage18video "echo "
+
+alias instantmirage19 "setpos 1296.000000 -160.000000 -103.968750;setang -32.537998 -152.162048 0.000000"
+alias instantmirage19output "say_team Instant Topcon Smoke #7, w + jumpthrow"
+alias instantmirage19video "echo "
+
+alias instantmirage20 "setpos 1296.000000 -64.000000 -103.968750;setang -30.623934 -150.469513 0.000000"
+alias instantmirage20output "say_team Instant Topcon Smoke #8, w + jumpthrow"
+alias instantmirage20video "echo "
+
+alias instantmirage21 "setpos 1296.000000 32.000000 -103.968750;setang -33.835888 -148.313675 0.000000"
+alias instantmirage21output "say_team Instant Topcon Smoke #9,+W Crouch-Jumpthrow wenn man Verzierung erreicht"
+alias instantmirage21video "echo "
+
+alias instantmirage22 "setpos 1216.000000 -115.000000 -102.953156;setang -39.159882 -150.275345 0.000000"
+alias instantmirage22output "say_team Instant Topcon Smoke #10, w + jumpthrow"
+alias instantmirage22video "echo "
+
+alias instantmirage23 "setpos 1216.000000 -16.000000 -102.953156;setang -36.365875 -148.361954 0.000000"
+alias instantmirage23output "say_team Instant Topcon Smoke #11, w + jumpthrow"
+alias instantmirage23video "echo "
+
+
 //#########################################################################################################
 
 // Spawn positions
@@ -94,7 +140,18 @@ alias .instantmirage8 "instantmirage8; alias instantmirage .instantmirage9; alia
 alias .instantmirage9 "instantmirage9; alias instantmirage .instantmirage10; alias instantrepeat instantmirage9; instantmirage9output; instantmirage9video"
 alias .instantmirage10 "instantmirage10; alias instantmirage .instantmirage11; alias instantrepeat instantmirage10; instantmirage10output; instantmirage10video"
 alias .instantmirage11 "instantmirage11; alias instantmirage .instantmirage12; alias instantrepeat instantmirage11; instantmirage11output; instantmirage11video"
-alias .instantmirage12 "instantmirage12; alias instantmirage .instantmirage1; alias instantrepeat instantmirage12; instantmirage12output; instantmirage12video"
+alias .instantmirage12 "instantmirage12; alias instantmirage .instantmirage13; alias instantrepeat instantmirage12; instantmirage12output; instantmirage12video"
+alias .instantmirage13 "instantmirage13; alias instantmirage .instantmirage14; alias instantrepeat instantmirage13; instantmirage13output; instantmirage13video"
+alias .instantmirage14 "instantmirage14; alias instantmirage .instantmirage15; alias instantrepeat instantmirage14; instantmirage14output; instantmirage14video"
+alias .instantmirage15 "instantmirage15; alias instantmirage .instantmirage16; alias instantrepeat instantmirage15; instantmirage15output; instantmirage15video"
+alias .instantmirage16 "instantmirage16; alias instantmirage .instantmirage17; alias instantrepeat instantmirage16; instantmirage16output; instantmirage16video"
+alias .instantmirage17 "instantmirage17; alias instantmirage .instantmirage18; alias instantrepeat instantmirage17; instantmirage17output; instantmirage17video"
+alias .instantmirage18 "instantmirage18; alias instantmirage .instantmirage19; alias instantrepeat instantmirage18; instantmirage18output; instantmirage18video"
+alias .instantmirage19 "instantmirage19; alias instantmirage .instantmirage20; alias instantrepeat instantmirage19; instantmirage19output; instantmirage19video"
+alias .instantmirage20 "instantmirage20; alias instantmirage .instantmirage21; alias instantrepeat instantmirage20; instantmirage20output; instantmirage20video"
+alias .instantmirage21 "instantmirage21; alias instantmirage .instantmirage22; alias instantrepeat instantmirage21; instantmirage21output; instantmirage21video"
+alias .instantmirage22 "instantmirage22; alias instantmirage .instantmirage23; alias instantrepeat instantmirage22; instantmirage22output; instantmirage22video"
+alias .instantmirage23 "instantmirage23; alias instantmirage .instantmirage1; alias instantrepeat instantmirage23; instantmirage23output; instantmirage23video"
 
 // Cycle through spawn positions
 alias instantmiragetrain .instantmiragetrain1
@@ -113,7 +170,7 @@ alias instanthelp4 "instantmirage4output; instantmirage4"
 alias .instantmiragetrain5 "instantmiragetrain5; alias instantmiragetrain .instantmiragetrain7; alias instantrepeat instantmiragetrain5; alias instanthelp instanthelp5"
 alias instanthelp5 "instantmirage5output; instantmirage5"
 
-alias .instantmiragetrain6 "instantmiragetrain6; alias instantmiragetrain .instantmiragetrain1; alias instantrepeat instantmiragetrain6; alias instanthelp instanthelp6"
+alias .instantmiragetrain6 "instantmiragetrain6; alias instantmiragetrain .instantmiragetrain13; alias instantrepeat instantmiragetrain6; alias instanthelp instanthelp6"
 alias instanthelp6 "instantmirage6output; instantmirage6"
 
 alias .instantmiragetrain7 "instantmiragetrain7; alias instantmiragetrain .instantmiragetrain10; alias instantrepeat instantmiragetrain7; alias instanthelp instanthelp7"
@@ -133,6 +190,39 @@ alias instanthelp11 "instantmirage11output; instantmirage11"
 
 alias .instantmiragetrain12 "instantmiragetrain12; alias instantmiragetrain .instantmiragetrain4; alias instantrepeat instantmiragetrain12; alias instanthelp instanthelp12"
 alias instanthelp12 "instantmirage12output; instantmirage12"
+
+alias .instantmiragetrain13 "instantmiragetrain13; alias instantmiragetrain .instantmiragetrain15; alias instantrepeat instantmiragetrain13; alias instanthelp instanthelp13"
+alias instanthelp13 "instantmirage13output; instantmirage13"
+
+alias .instantmiragetrain14 "instantmiragetrain14; alias instantmiragetrain .instantmiragetrain16; alias instantrepeat instantmiragetrain14; alias instanthelp instanthelp14"
+alias instanthelp14 "instantmirage14output; instantmirage14"
+
+alias .instantmiragetrain15 "instantmiragetrain15; alias instantmiragetrain .instantmiragetrain17; alias instantrepeat instantmiragetrain15; alias instanthelp instanthelp15"
+alias instanthelp15 "instantmirage15output; instantmirage15"
+
+alias .instantmiragetrain16 "instantmiragetrain16; alias instantmiragetrain .instantmiragetrain18; alias instantrepeat instantmiragetrain16; alias instanthelp instanthelp16"
+alias instanthelp16 "instantmirage16output; instantmirage16"
+
+alias .instantmiragetrain17 "instantmiragetrain17; alias instantmiragetrain .instantmiragetrain19; alias instantrepeat instantmiragetrain17; alias instanthelp instanthelp17"
+alias instanthelp17 "instantmirage17output; instantmirage17"
+
+alias .instantmiragetrain18 "instantmiragetrain18; alias instantmiragetrain .instantmiragetrain20; alias instantrepeat instantmiragetrain18; alias instanthelp instanthelp18"
+alias instanthelp18 "instantmirage18output; instantmirage18"
+
+alias .instantmiragetrain19 "instantmiragetrain19; alias instantmiragetrain .instantmiragetrain21; alias instantrepeat instantmiragetrain19; alias instanthelp instanthelp19"
+alias instanthelp19 "instantmirage19output; instantmirage19"
+
+alias .instantmiragetrain20 "instantmiragetrain20; alias instantmiragetrain .instantmiragetrain22; alias instantrepeat instantmiragetrain20; alias instanthelp instanthelp20"
+alias instanthelp20 "instantmirage20output; instantmirage20"
+
+alias .instantmiragetrain21 "instantmiragetrain21; alias instantmiragetrain .instantmiragetrain23; alias instantrepeat instantmiragetrain21; alias instanthelp instanthelp21"
+alias instanthelp21 "instantmirage21output; instantmirage21"
+
+alias .instantmiragetrain22 "instantmiragetrain22; alias instantmiragetrain .instantmiragetrain1; alias instantrepeat instantmiragetrain22; alias instanthelp instanthelp22"
+alias instanthelp22 "instantmirage22output; instantmirage22"
+
+alias .instantmiragetrain23 "instantmiragetrain23; alias instantmiragetrain .instantmiragetrain14; alias instantrepeat instantmiragetrain23; alias instanthelp instanthelp23"
+alias instanthelp23 "instantmirage23output; instantmirage23"
 
 
 
