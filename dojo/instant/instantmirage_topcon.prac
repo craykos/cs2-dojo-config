@@ -13,53 +13,49 @@ echo
 
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
-alias instantmirage1 "setpos 1376.000000 -304.000000 -153.906189;setang -31.970390 -173.095184 0.000000"
-alias instantmirage1output "say_team Instant Smoke #1, w + jumpthrow"
+alias instantmirage1 "setpos 1376.000000 -304.000000 -144.000000;setang -35.749878 -155.902496 0.000000"
+alias instantmirage1output "say_team  Instant Topcon Smoke #1, w + jumpthrow"
 alias instantmirage1video "echo "
 
-alias instantmirage2 "setpos 1376.000000 -208.000000 -149.926956;setang -30.106964 -171.253052 0.000000"
-alias instantmirage2output "say_team Instant Smoke #2, w + jumpthrow"
+alias instantmirage2 "setpos 1376.000000 -208.000000 -102.918365;setang -26.289928 -154.274155 0.000000"
+alias instantmirage2output "say_team Instant Topcon Smoke #2, w + jumpthrow"
 alias instantmirage2video "echo "
 
-alias instantmirage3 "setpos 1376.000000 -112.000000 -149.902557;setang -34.187962 -169.067566 0.000000"
-alias instantmirage3output "say_team Instant Smoke #3, w + jumpthrow"
+alias instantmirage3 "setpos 1376.000000 -112.000000 -102.918365;setang -27.345909 -152.537430 0.000000"
+alias instantmirage3output "say_team Instant Topcon Smoke #3, +W Crouch-Jumpthrow wenn an heller Kante"
 alias instantmirage3video "echo "
 
-alias instantmirage4 "setpos 1376.000000 -16.000000 -153.906189;setang -32.637779 -167.554626 0.000000"
-alias instantmirage4output "say_team Instant Smoke #4,crouch a bit foreward + jumpthrow"
+alias instantmirage4 "setpos 1376.000000 -16.000000 -103.968750;setang -26.465927 -150.051468 0.000000"
+alias instantmirage4output "say_team Instant Topcon Smoke #4, +W Crouch-Jumpthrow wenn man helle Kante erreicht"
 alias instantmirage4video "echo "
 
-alias instantmirage5 "setpos 1296.000000 -352.000000 -153.906189;setang -41.153137 -174.198914 0.000000"
-alias instantmirage5output "say_team Instant Smoke #5, w + jumpthrow"
+alias instantmirage5 "setpos 1296.000000 -352.000000 -103.968750;setang -43.845924 -156.210693 0.000000"
+alias instantmirage5output "say_team Instant Topcon Smoke #5, w + jumpthrow"
 alias instantmirage5video "echo "
 
-alias instantmirage6 "setpos 1296.000000 -256.000000 -103.970612;setang -42.017754 -171.765671 0.000000"
-alias instantmirage6output "say_team Instant Smoke #6, w + jumpthrow"
+alias instantmirage6 "setpos 1296.000000 -256.000000 -103.968750;setang -34.341866 -154.296738 0.000000"
+alias instantmirage6output "say_team Instant Topcon Smoke #6, w + jumpthrow"
 alias instantmirage6video "echo "
 
-alias instantmirage7 "setpos 1296.000000 -160.000000 -103.968750;setang -38.902626 -169.438614 0.000000"
-alias instantmirage7output "say_team Instant Smoke #7, w + jumpthrow"
+alias instantmirage7 "setpos 1296.000000 -160.000000 -103.968750;setang -32.537998 -152.162048 0.000000"
+alias instantmirage7output "say_team Instant Topcon Smoke #7, w + jumpthrow"
 alias instantmirage7video "echo "
 
-alias instantmirage8 "setpos 1296.000000 -64.000000 -153.906189;setang -28.274370 -168.031006 0.000000"
-alias instantmirage8output "say_team Instant Smoke #8, w + jumpthrow"
+alias instantmirage8 "setpos 1296.000000 -64.000000 -103.968750;setang -30.623934 -150.469513 0.000000"
+alias instantmirage8output "say_team Instant Topcon Smoke #8, w + jumpthrow"
 alias instantmirage8video "echo "
 
-alias instantmirage9 "setpos 1296.000000 32.000000 -153.930603;setang -28.951996 -165.981461 0.000000"
-alias instantmirage9output "say_team Instant Smoke #9, w + jumpthrow"
+alias instantmirage9 "setpos 1296.000000 32.000000 -103.968750;setang -33.835888 -148.313675 0.000000"
+alias instantmirage9output "say_team Instant Topcon Smoke #9,+W Crouch-Jumpthrow wenn man Verzierung erreicht"
 alias instantmirage9video "echo "
 
-alias instantmirage10 "setpos 1216.000000 -211.000000 -100.611038;setang -45.979954 -170.366623 0.000000"
-alias instantmirage10output "say_team Instant Smoke #10, w + jumpthrow"
+alias instantmirage10 "setpos 1216.000000 -115.000000 -102.953156;setang -39.159882 -150.275345 0.000000"
+alias instantmirage10output "say_team Instant Topcon Smoke #10, w + jumpthrow"
 alias instantmirage10video "echo "
 
-alias instantmirage11 "setpos 1216.000000 -115.000000 -102.953156;setang -44.087891 -168.536072 0.000000"
-alias instantmirage11output "say_team Instant Smoke #11, w + jumpthrow"
+alias instantmirage11 "setpos 1216.000000 -16.000000 -102.953156;setang -36.365875 -148.361954 0.000000"
+alias instantmirage11output "say_team Instant Topcon Smoke #11, w + jumpthrow"
 alias instantmirage11video "echo "
-
-alias instantmirage12 "setpos 1216.000000 -16.000000 -102.953156;setang -45.011959 -166.621872 0.000000"
-alias instantmirage12output "say_team Instant Smoke #12, w + jumpthrow"
-alias instantmirage12video "echo "
 //#########################################################################################################
 
 // Spawn positions
@@ -93,8 +89,8 @@ alias .instantmirage7 "instantmirage7; alias instantmirage .instantmirage8; alia
 alias .instantmirage8 "instantmirage8; alias instantmirage .instantmirage9; alias instantrepeat instantmirage8; instantmirage8output; instantmirage8video"
 alias .instantmirage9 "instantmirage9; alias instantmirage .instantmirage10; alias instantrepeat instantmirage9; instantmirage9output; instantmirage9video"
 alias .instantmirage10 "instantmirage10; alias instantmirage .instantmirage11; alias instantrepeat instantmirage10; instantmirage10output; instantmirage10video"
-alias .instantmirage11 "instantmirage11; alias instantmirage .instantmirage12; alias instantrepeat instantmirage11; instantmirage11output; instantmirage11video"
-alias .instantmirage12 "instantmirage12; alias instantmirage .instantmirage1; alias instantrepeat instantmirage12; instantmirage12output; instantmirage12video"
+alias .instantmirage11 "instantmirage11; alias instantmirage .instantmirage1; alias instantrepeat instantmirage11; instantmirage11output; instantmirage11video"
+
 
 // Cycle through spawn positions
 alias instantmiragetrain .instantmiragetrain1
@@ -119,7 +115,7 @@ alias instanthelp6 "instantmirage6output; instantmirage6"
 alias .instantmiragetrain7 "instantmiragetrain7; alias instantmiragetrain .instantmiragetrain10; alias instantrepeat instantmiragetrain7; alias instanthelp instanthelp7"
 alias instanthelp7 "instantmirage7output; instantmirage7"
 
-alias .instantmiragetrain8 "instantmiragetrain8; alias instantmiragetrain .instantmiragetrain12; alias instantrepeat instantmiragetrain8; alias instanthelp instanthelp8"
+alias .instantmiragetrain8 "instantmiragetrain8; alias instantmiragetrain .instantmiragetrain4; alias instantrepeat instantmiragetrain8; alias instanthelp instanthelp8"
 alias instanthelp8 "instantmirage8output; instantmirage8"
 
 alias .instantmiragetrain9 "instantmiragetrain9; alias instantmiragetrain .instantmiragetrain6; alias instantrepeat instantmiragetrain9; alias instanthelp instanthelp9"
@@ -130,9 +126,6 @@ alias instanthelp10 "instantmirage10output; instantmirage10"
 
 alias .instantmiragetrain11 "instantmiragetrain11; alias instantmiragetrain .instantmiragetrain8; alias instantrepeat instantmiragetrain11; alias instanthelp instanthelp11"
 alias instanthelp11 "instantmirage11output; instantmirage11"
-
-alias .instantmiragetrain12 "instantmiragetrain12; alias instantmiragetrain .instantmiragetrain4; alias instantrepeat instantmiragetrain12; alias instanthelp instanthelp12"
-alias instanthelp12 "instantmirage12output; instantmirage12"
 
 
 

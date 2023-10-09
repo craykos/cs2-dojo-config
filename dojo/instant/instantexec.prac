@@ -1,6 +1,6 @@
 //	Exec instant smokes files
 alias iancient "exec dojo\instant\instantancient.prac"
-alias imirage "exec dojo\instant\instantmirage.prac"
+alias imirage "exec dojo\instant\mirageexec.prac"
 alias ianubis "exec dojo\instant\instantanubis.prac"
 alias i1 ""
 alias i2 ""
