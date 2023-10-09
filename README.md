@@ -98,3 +98,8 @@ Tip: Bind the command `noclip` to a key for fast movement through the map.
   - To toggle noclip with the middle mouse button write  
        `bind mouse3 noclip` in console
 
+### Restore binds ###
+To restore the original binds you set in the dojoBindings.cfg  
+write in console:
+- `dojooff` when the config is still loaded
+- `exec dojooff` when the config is not loaded anymore
