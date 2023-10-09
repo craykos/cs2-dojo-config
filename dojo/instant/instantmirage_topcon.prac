@@ -13,8 +13,8 @@ echo
 
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
-alias instantmirage1 "setpos 1376.000000 -304.000000 -144.000000;setang -35.749878 -155.902496 0.000000"
-alias instantmirage1output "say_team  Instant Topcon Smoke #1, w + jumpthrow"
+alias instantmirage1 "setpos_exact 1376.000000 -304.000000 -167.968750;setang_exact -39.577774 -156.232574 0.000000"
+alias instantmirage1output "say_team  Instant Topcon Smoke #1, crouchwalk + jumpthrow, till white area"
 alias instantmirage1video "echo "
 
 alias instantmirage2 "setpos 1376.000000 -208.000000 -102.918365;setang -26.289928 -154.274155 0.000000"
@@ -22,11 +22,11 @@ alias instantmirage2output "say_team Instant Topcon Smoke #2, w + jumpthrow"
 alias instantmirage2video "echo "
 
 alias instantmirage3 "setpos 1376.000000 -112.000000 -102.918365;setang -27.345909 -152.537430 0.000000"
-alias instantmirage3output "say_team Instant Topcon Smoke #3, +W Crouch-Jumpthrow wenn an heller Kante"
+alias instantmirage3output "say_team Instant Topcon Smoke #3, crouchwalk + jumpthrow, till white frame"
 alias instantmirage3video "echo "
 
 alias instantmirage4 "setpos 1376.000000 -16.000000 -103.968750;setang -26.465927 -150.051468 0.000000"
-alias instantmirage4output "say_team Instant Topcon Smoke #4, +W Crouch-Jumpthrow wenn man helle Kante erreicht"
+alias instantmirage4output "say_team Instant Topcon Smoke #4, crouchwalk + jumpthrow, till white frame"
 alias instantmirage4video "echo "
 
 alias instantmirage5 "setpos 1296.000000 -352.000000 -103.968750;setang -43.845924 -156.210693 0.000000"
@@ -46,7 +46,7 @@ alias instantmirage8output "say_team Instant Topcon Smoke #8, w + jumpthrow"
 alias instantmirage8video "echo "
 
 alias instantmirage9 "setpos 1296.000000 32.000000 -103.968750;setang -33.835888 -148.313675 0.000000"
-alias instantmirage9output "say_team Instant Topcon Smoke #9,+W Crouch-Jumpthrow wenn man Verzierung erreicht"
+alias instantmirage9output "say_team Instant Topcon Smoke #9, crouchwalk + jumpthrow, till ornament"
 alias instantmirage9video "echo "
 
 alias instantmirage10 "setpos 1216.000000 -115.000000 -102.953156;setang -39.159882 -150.275345 0.000000"
