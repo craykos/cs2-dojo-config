@@ -14,7 +14,7 @@
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
-ᴠ. 3.42
+ᴠ. 3.43
 
 **Instant smokes for: ancient, anubis & mirage**
 
@@ -22,7 +22,7 @@ Video Guide:
 https://youtu.be/JBK9XNZ9MwE
 
 ## Installation: 
-1.    Copy files `dojo.cfg, dojobindings.cfg` and the `folder dojo` for CS2 to the folder  
+1.    Copy files `dojo.cfg, dojoBindings.cfg, dojoOff.cfg` and the `folder dojo` for CS2 to the folder  
      Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg    
 2.   Set the keys for the program in the file dojobindings.cfg   
 
