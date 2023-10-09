@@ -14,7 +14,7 @@
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
-ᴠ. 3.50
+ᴠ. 3.43
 
 **Instant smokes for: ancient, anubis, inferno & mirage**
 
@@ -22,7 +22,7 @@ Video Guide:
 https://youtu.be/JBK9XNZ9MwE
 
 ## Installation: 
-1.    Copy files `dojo.cfg, dojobindings.cfg` and the `folder dojo` for CS2 to the folder  
+1.    Copy files `dojo.cfg, dojoBindings.cfg, dojoOff.cfg` and the `folder dojo` for CS2 to the folder  
      Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg    
 2.   Set the keys for the program in the file dojobindings.cfg   
 
@@ -98,3 +98,8 @@ Tip: Bind the command `noclip` to a key for fast movement through the map.
   - To toggle noclip with the middle mouse button write  
        `bind mouse3 noclip` in console
 
+### Restore binds ###
+To restore the original binds you set in the dojoBindings.cfg  
+write in console:
+- `dojooff` when the config is still loaded
+- `exec dojooff` when the config is not loaded anymore
