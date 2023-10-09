@@ -16,7 +16,7 @@
 
 ᴠ. 3.43
 
-**Instant smokes for: ancient, anubis & mirage**
+**Instant smokes for: ancient, anubis, inferno & mirage**
 
 Video Guide:
 https://youtu.be/JBK9XNZ9MwE
