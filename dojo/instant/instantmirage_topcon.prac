@@ -1,0 +1,159 @@
+// game commands for offline server
+exec "dojo\resource\serversettingsoffline.prac"
+
+echo
+echo
+echo To practice instant smokes
+echo -with lineup write>>> i1
+echo -without help write>>> i2
+echo This will load the training mode to your instant keys
+echo
+echo
+echo
+
+//#########################################################################################################
+// Real Instant Smoke positions, instructions and video link
+alias instantmirage1 "setpos_exact 1376.000000 -304.000000 -167.968750;setang_exact -39.577774 -156.232574 0.000000"
+alias instantmirage1output "say_team  Instant Topcon Smoke #1, crouchwalk + jumpthrow, till white area"
+alias instantmirage1video "echo "
+
+alias instantmirage2 "setpos 1376.000000 -208.000000 -102.918365;setang -26.289928 -154.274155 0.000000"
+alias instantmirage2output "say_team Instant Topcon Smoke #2, w + jumpthrow"
+alias instantmirage2video "echo "
+
+alias instantmirage3 "setpos 1376.000000 -112.000000 -102.918365;setang -27.345909 -152.537430 0.000000"
+alias instantmirage3output "say_team Instant Topcon Smoke #3, crouchwalk + jumpthrow, till white frame"
+alias instantmirage3video "echo "
+
+alias instantmirage4 "setpos 1376.000000 -16.000000 -103.968750;setang -26.465927 -150.051468 0.000000"
+alias instantmirage4output "say_team Instant Topcon Smoke #4, crouchwalk + jumpthrow, till white frame"
+alias instantmirage4video "echo "
+
+alias instantmirage5 "setpos 1296.000000 -352.000000 -103.968750;setang -43.845924 -156.210693 0.000000"
+alias instantmirage5output "say_team Instant Topcon Smoke #5, w + jumpthrow"
+alias instantmirage5video "echo "
+
+alias instantmirage6 "setpos 1296.000000 -256.000000 -103.968750;setang -34.341866 -154.296738 0.000000"
+alias instantmirage6output "say_team Instant Topcon Smoke #6, w + jumpthrow"
+alias instantmirage6video "echo "
+
+alias instantmirage7 "setpos 1296.000000 -160.000000 -103.968750;setang -32.537998 -152.162048 0.000000"
+alias instantmirage7output "say_team Instant Topcon Smoke #7, w + jumpthrow"
+alias instantmirage7video "echo "
+
+alias instantmirage8 "setpos 1296.000000 -64.000000 -103.968750;setang -30.623934 -150.469513 0.000000"
+alias instantmirage8output "say_team Instant Topcon Smoke #8, w + jumpthrow"
+alias instantmirage8video "echo "
+
+alias instantmirage9 "setpos 1296.000000 32.000000 -103.968750;setang -33.835888 -148.313675 0.000000"
+alias instantmirage9output "say_team Instant Topcon Smoke #9, crouchwalk + jumpthrow, till ornament"
+alias instantmirage9video "echo "
+
+alias instantmirage10 "setpos 1216.000000 -115.000000 -102.953156;setang -39.159882 -150.275345 0.000000"
+alias instantmirage10output "say_team Instant Topcon Smoke #10, w + jumpthrow"
+alias instantmirage10video "echo "
+
+alias instantmirage11 "setpos 1216.000000 -16.000000 -102.953156;setang -36.365875 -148.361954 0.000000"
+alias instantmirage11output "say_team Instant Topcon Smoke #11, w + jumpthrow"
+alias instantmirage11video "echo "
+//#########################################################################################################
+
+// Spawn positions
+alias instantmiragetrain1 "setpos 1376.000000 -304.000000 -144.000000;setang 0.000000 227.000000 0.000000"
+alias instantmiragetrain2 "setpos 1376.000000 -208.000000 -144.000000;setang 0.000000 227.000000 0.000000"
+alias instantmiragetrain3 "setpos 1376.000000 -112.000000 -144.000000;setang 0.000000 141.000000 0.000000"
+alias instantmiragetrain4 "setpos 1376.000000 -16.000000 -144.000000;setang 0.000000 141.000000 0.000000"
+alias instantmiragetrain5 "setpos 1296.000000 -352.000000 -144.000000;setang 0.000000 227.000000 0.000000"
+alias instantmiragetrain6 "setpos 1296.000000 -256.000000 -144.000000;setang 0.000000 227.000000 0.000000"
+alias instantmiragetrain7 "setpos 1296.000000 -160.000000 -144.000000;setang 0.000000 227.000000 0.000000"
+alias instantmiragetrain8 "setpos 1296.000000 -64.000000 -144.000000;setang 0.000000 141.000000 0.000000"
+alias instantmiragetrain9 "setpos 1296.000000 32.000000 -144.000000;setang 0.000000 141.000000 0.000000"
+alias instantmiragetrain10 "setpos 1216.000000 -211.000000 -144.000000;setang 0.000000 270.000000 0.000000"
+alias instantmiragetrain11 "setpos 1216.000000 -115.000000 -144.000000;setang 0.000000 90.000000 0.000000"
+alias instantmiragetrain12 "setpos 1216.000000 -16.000000 -144.000000;setang 0.000000 90.000000 0.000000"
+
+
+// Set unused variable
+alias instantrepeat ""
+
+
+// Cycle through real instant smokes
+alias instantmirage .instantmirage1
+alias .instantmirage1 "instantmirage1; alias instantmirage .instantmirage2; alias instantrepeat instantmirage1; instantmirage1output; instantmirage1video"
+alias .instantmirage2 "instantmirage2; alias instantmirage .instantmirage3; alias instantrepeat instantmirage2; instantmirage2output; instantmirage2video"
+alias .instantmirage3 "instantmirage3; alias instantmirage .instantmirage4; alias instantrepeat instantmirage3; instantmirage3output; instantmirage3video"
+alias .instantmirage4 "instantmirage4; alias instantmirage .instantmirage5; alias instantrepeat instantmirage4; instantmirage4output; instantmirage4video"
+alias .instantmirage5 "instantmirage5; alias instantmirage .instantmirage6; alias instantrepeat instantmirage5; instantmirage5output; instantmirage5video"
+alias .instantmirage6 "instantmirage6; alias instantmirage .instantmirage7; alias instantrepeat instantmirage6; instantmirage6output; instantmirage6video"
+alias .instantmirage7 "instantmirage7; alias instantmirage .instantmirage8; alias instantrepeat instantmirage7; instantmirage7output; instantmirage7video"
+alias .instantmirage8 "instantmirage8; alias instantmirage .instantmirage9; alias instantrepeat instantmirage8; instantmirage8output; instantmirage8video"
+alias .instantmirage9 "instantmirage9; alias instantmirage .instantmirage10; alias instantrepeat instantmirage9; instantmirage9output; instantmirage9video"
+alias .instantmirage10 "instantmirage10; alias instantmirage .instantmirage11; alias instantrepeat instantmirage10; instantmirage10output; instantmirage10video"
+alias .instantmirage11 "instantmirage11; alias instantmirage .instantmirage1; alias instantrepeat instantmirage11; instantmirage11output; instantmirage11video"
+
+
+// Cycle through spawn positions
+alias instantmiragetrain .instantmiragetrain1
+alias .instantmiragetrain1 "instantmiragetrain1; alias instantmiragetrain .instantmiragetrain3; alias instantrepeat instantmiragetrain1; alias instanthelp instanthelp1"
+alias instanthelp1 "instantmirage1output; instantmirage1"
+
+alias .instantmiragetrain2 "instantmiragetrain2; alias instantmiragetrain .instantmiragetrain11; alias instantrepeat instantmiragetrain2; alias instanthelp instanthelp2"
+alias instanthelp2 "instantmirage2output; instantmirage2"
+
+alias .instantmiragetrain3 "instantmiragetrain3; alias instantmiragetrain .instantmiragetrain5; alias instantrepeat instantmiragetrain3; alias instanthelp instanthelp3"
+alias instanthelp3 "instantmirage3output; instantmirage3"
+
+alias .instantmiragetrain4 "instantmiragetrain4; alias instantmiragetrain .instantmiragetrain9; alias instantrepeat instantmiragetrain4; alias instanthelp instanthelp4"
+alias instanthelp4 "instantmirage4output; instantmirage4"
+
+alias .instantmiragetrain5 "instantmiragetrain5; alias instantmiragetrain .instantmiragetrain7; alias instantrepeat instantmiragetrain5; alias instanthelp instanthelp5"
+alias instanthelp5 "instantmirage5output; instantmirage5"
+
+alias .instantmiragetrain6 "instantmiragetrain6; alias instantmiragetrain .instantmiragetrain1; alias instantrepeat instantmiragetrain6; alias instanthelp instanthelp6"
+alias instanthelp6 "instantmirage6output; instantmirage6"
+
+alias .instantmiragetrain7 "instantmiragetrain7; alias instantmiragetrain .instantmiragetrain10; alias instantrepeat instantmiragetrain7; alias instanthelp instanthelp7"
+alias instanthelp7 "instantmirage7output; instantmirage7"
+
+alias .instantmiragetrain8 "instantmiragetrain8; alias instantmiragetrain .instantmiragetrain4; alias instantrepeat instantmiragetrain8; alias instanthelp instanthelp8"
+alias instanthelp8 "instantmirage8output; instantmirage8"
+
+alias .instantmiragetrain9 "instantmiragetrain9; alias instantmiragetrain .instantmiragetrain6; alias instantrepeat instantmiragetrain9; alias instanthelp instanthelp9"
+alias instanthelp9 "instantmirage9output; instantmirage9"
+
+alias .instantmiragetrain10 "instantmiragetrain10; alias instantmiragetrain .instantmiragetrain2; alias instantrepeat instantmiragetrain10; alias instanthelp instanthelp10"
+alias instanthelp10 "instantmirage10output; instantmirage10"
+
+alias .instantmiragetrain11 "instantmiragetrain11; alias instantmiragetrain .instantmiragetrain8; alias instantrepeat instantmiragetrain11; alias instanthelp instanthelp11"
+alias instanthelp11 "instantmirage11output; instantmirage11"
+
+
+
+//	Bind repeat function to key2
+alias instantkey2 instantrepeat
+alias instantkey3 instanthelp
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+//	Bind Wheelchair mode to instantkey1
+alias i1 instantwheelstart
+alias instantwheelstart "alias instantkey1 instantmirage; alias instanthelp instantrepeat;toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again; slot8"
+//	Bind instantlove mode to instantkey1
+alias i2 instantlovestart
+alias instantlovestart "alias instantkey1 instantmiragetrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup; slot8"
+
+
+//  .:::::                                                    .::::::::                            
+//  .::   .::              .::                     .::        .::                                  
+//  .::    .::   .::             .::             . .::        .::      .::     .::   .::    .: .:::
+//  .::    .:: .::  .::    .:: .::  .::         .: .::        .::::::   .::   .::  .:   .::  .::   
+//  .::    .::.::    .::   .::.::    .::      .::  .::        .::        .:: .::  .::::: .:: .::   
+//  .::   .::  .::  .::    .:: .::  .::      .:::: .: .::     .::         .:.::   .:         .::   
+//  .:::::       .::       .::   .::               .::        .::::::::    .::      .::::   .:::   
+//                      .:::                                                                       
+
+// Dojo powered by fREShCS
+// https://www.twitch.tv/freshcs_
+// https://www.youtube.com/@fREShCSCoaching
+//
+// credit to BeNseN for the lineups
+// The spawn locations are extracted directly out of the game files
