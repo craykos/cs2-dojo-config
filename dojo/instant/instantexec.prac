@@ -2,6 +2,7 @@
 alias iancient "exec dojo\instant\instantancient.prac"
 alias imirage "exec dojo\instant\mirageexec.prac"
 alias ianubis "exec dojo\instant\instantanubis.prac"
+alias iinferno "exec dojo\instant\instantinferno.prac"
 alias i1 ""
 alias i2 ""
 alias bplace "say_team Bot functions are available in freestyle mode. Write dojo in console to restart the config"
@@ -12,6 +13,7 @@ echo
 echo Load instant smokes
 echo mirage _write>>> imirage
 echo ancient _write>>> iancient
-echo anubis_write>>> ianubis
+echo anubis _write>>> ianubis
+echo inferno _write>>> iinferno
 echo
 echo

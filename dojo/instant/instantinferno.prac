@@ -1,0 +1,153 @@
+// game commands for offline server
+exec "dojo\resource\serversettingsoffline.prac"
+
+echo
+echo
+echo To practice instant smokes
+echo -with lineup write>>> i1
+echo -without help write>>> i2
+echo This will load the training mode to your instant keys
+echo
+echo
+echo
+
+//#########################################################################################################
+// Real Instant Smoke positions, instructions and video link
+alias instantinferno1 "setpos 2492.881836 2090.051514 196.356506;setang -54.295872 -155.837692 0.000000"
+alias instantinferno1output "say_team Instant Smoke #1, crouchwalk + jumpthrow till high of roof"
+alias instantinferno1video "echo "
+
+alias instantinferno2 "setpos 2353.011475 1977.011230 199.071579;setang -31.503958 -154.832016 0.000000"
+alias instantinferno2output "say_team Instant Smoke #2, crouch + w jumpthrow"
+alias instantinferno2video "echo "
+
+alias instantinferno3 "setpos 2472.370850 2006.177002 197.862000;setang -50.115932 -164.491196 0.000000"
+alias instantinferno3output "say_team Instant Smoke #3, crouchwalk + jumpthrow till high of second roof"
+alias instantinferno3video "echo "
+
+alias instantinferno4 "setpos 2456.829590 2153.159912 196.053360;setang -39.973858 -153.885818 0.000000"
+alias instantinferno4output "say_team Instant Smoke #4, crouchwalk + jumpthrow, till end of white before dot "
+alias instantinferno4video "echo "
+
+alias instantinferno5 "setpos 2397.000000 2079.004150 196.610153;setang -43.075954 -154.709732 0.000000"
+alias instantinferno5output "say_team Instant Smoke #5,  crouchwalk + jumpthrow till roof"
+alias instantinferno5video "echo "
+
+alias instantinferno6 "setpos 2420.970703 1965.805176 199.268478;setang -46.199833 -157.215240 0.000000"
+alias instantinferno6output "say_team Instant Smoke #6, crouchwalk + jumpthrow, till index finger reaches white"
+alias instantinferno6video "echo "
+
+alias instantinferno7 "setpos 2342.830078 1792.109985 201.536026;setang -46.595963 -160.252060 0.000000"
+alias instantinferno7output "say_team Instant Smoke #7,  w + jumpthrow"
+alias instantinferno7video "echo "
+
+alias instantinferno8 "setpos 2479.314697 2213.501465 195.527084;setang -39.996021 -152.787674 0.000000"
+alias instantinferno8output "say_team Instant Smoke #8, crouchwalk + jumpthrow, till window"
+alias instantinferno8video "echo "
+
+alias instantinferno9 "setpos 2436.000000 2355.000000 192.576096;setang -54.669922 -151.575684 0.000000"
+alias instantinferno9output "say_team Instant Smoke #9, walk + jumpthrow, from inner window frame till reaching second roof"
+alias instantinferno9video "echo "
+
+alias instantinferno10 "setpos 2374.471191 2171.850342 196.034714;setang -47.387901 -152.543594 0.000000"
+alias instantinferno10output "say_team Instant Smoke #10, walk + jumpthrow, till frame"
+alias instantinferno10video "echo "
+
+//#########################################################################################################
+
+// Spawn positions
+//alias instantinfernotrain1 "setpos 2292.060059 2027.689941 199.454956;setang 0.000000 70.000076 0.000000" //valid, unusable
+alias instantinfernotrain1 "setpos 2493.000000 2090.000000 196.359116;setang 0.000000 -136.499969 0.000000" //valid 
+alias instantinfernotrain2 "setpos 2353.000000 1977.000000 199.071655;setang 0.000000 97.499878 0.000000" //valid
+alias instantinfernotrain3 "setpos 2472.349854 2005.969971 197.869781;setang 0.000000 160.000061 0.000000"
+alias instantinfernotrain4 "setpos 2456.830078 2153.159912 196.053360;setang 0.000000 -108.477943 0.000000" //valid
+alias instantinfernotrain5 "setpos 2397.000000 2079.000000 196.610153;setang 0.000000 135.000000 0.000000" //valid 
+//alias instantinfernotrain7 "setpos 2296.679932 2199.540039 196.079514;setang 0.000000 81.000122 0.000000"  //unusable
+alias instantinfernotrain6 "setpos 2420.989990 1965.770020 199.271103;setang 0.000000 -105.999870 0.000000"
+alias instantinfernotrain7 "setpos 2342.830078 1792.109985 201.536026;setang 0.000000 99.999969 0.000000"
+alias instantinfernotrain8 "setpos 2479.320068 2213.470215 195.527908;setang 0.000000 171.000122 0.000000"
+alias instantinfernotrain9 "setpos 2436.000000 2355.000000 192.576096;setang 0.000000 -97.499886 0.000000"
+alias instantinfernotrain10 "setpos 2374.469971 2171.850098 196.034714;setang 0.000000 108.499939 0.000000"
+
+
+// Set unused variable
+alias instantrepeat ""
+
+
+// Cycle through real instant smokes
+alias instantinferno .instantinferno1
+alias .instantinferno1 "instantinferno1; alias instantinferno .instantinferno2; alias instantrepeat instantinferno1; instantinferno1output; instantinferno1video"
+alias .instantinferno2 "instantinferno2; alias instantinferno .instantinferno3; alias instantrepeat instantinferno2; instantinferno2output; instantinferno2video"
+alias .instantinferno3 "instantinferno3; alias instantinferno .instantinferno4; alias instantrepeat instantinferno3; instantinferno3output; instantinferno3video"
+alias .instantinferno4 "instantinferno4; alias instantinferno .instantinferno5; alias instantrepeat instantinferno4; instantinferno4output; instantinferno4video"
+alias .instantinferno5 "instantinferno5; alias instantinferno .instantinferno6; alias instantrepeat instantinferno5; instantinferno5output; instantinferno5video"
+alias .instantinferno6 "instantinferno6; alias instantinferno .instantinferno7; alias instantrepeat instantinferno6; instantinferno6output; instantinferno6video"
+alias .instantinferno7 "instantinferno7; alias instantinferno .instantinferno8; alias instantrepeat instantinferno7; instantinferno7output; instantinferno7video"
+alias .instantinferno8 "instantinferno8; alias instantinferno .instantinferno9; alias instantrepeat instantinferno8; instantinferno8output; instantinferno8video"
+alias .instantinferno9 "instantinferno9; alias instantinferno .instantinferno10; alias instantrepeat instantinferno9; instantinferno9output; instantinferno9video"
+alias .instantinferno10 "instantinferno10; alias instantinferno .instantinferno1; alias instantrepeat instantinferno10; instantinferno10output; instantinferno10video"
+
+
+// Cycle through spawn positions
+alias instantinfernotrain .instantinfernotrain1
+alias .instantinfernotrain1 "instantinfernotrain1; alias instantinfernotrain .instantinfernotrain3; alias instantrepeat instantinfernotrain1; alias instanthelp instanthelp1"
+alias instanthelp1 "instantinferno1output; instantinferno1"
+
+alias .instantinfernotrain2 "instantinfernotrain2; alias instantinfernotrain .instantinfernotrain8; alias instantrepeat instantinfernotrain2; alias instanthelp instanthelp2"
+alias instanthelp2 "instantinferno2output; instantinferno2"
+
+alias .instantinfernotrain3 "instantinfernotrain3; alias instantinfernotrain .instantinfernotrain5; alias instantrepeat instantinfernotrain3; alias instanthelp instanthelp3"
+alias instanthelp3 "instantinferno3output; instantinferno3"
+
+alias .instantinfernotrain4 "instantinfernotrain4; alias instantinfernotrain .instantinfernotrain9; alias instantrepeat instantinfernotrain4; alias instanthelp instanthelp4"
+alias instanthelp4 "instantinferno4output; instantinferno4"
+
+alias .instantinfernotrain5 "instantinfernotrain5; alias instantinfernotrain .instantinfernotrain7; alias instantrepeat instantinfernotrain5; alias instanthelp instanthelp5"
+alias instanthelp5 "instantinferno5output; instantinferno5"
+
+alias .instantinfernotrain6 "instantinfernotrain6; alias instantinfernotrain .instantinfernotrain1; alias instantrepeat instantinfernotrain6; alias instanthelp instanthelp6"
+alias instanthelp6 "instantinferno6output; instantinferno6"
+
+alias .instantinfernotrain7 "instantinfernotrain7; alias instantinfernotrain .instantinfernotrain10; alias instantrepeat instantinfernotrain7; alias instanthelp instanthelp7"
+alias instanthelp7 "instantinferno7output; instantinferno7"
+
+alias .instantinfernotrain8 "instantinfernotrain8; alias instantinfernotrain .instantinfernotrain4; alias instantrepeat instantinfernotrain8; alias instanthelp instanthelp8"
+alias instanthelp8 "instantinferno8output; instantinferno8"
+
+alias .instantinfernotrain9 "instantinfernotrain9; alias instantinfernotrain .instantinfernotrain6; alias instantrepeat instantinfernotrain9; alias instanthelp instanthelp9"
+alias instanthelp9 "instantinferno9output; instantinferno9"
+
+alias .instantinfernotrain10 "instantinfernotrain10; alias instantinfernotrain .instantinfernotrain2; alias instantrepeat instantinfernotrain10; alias instanthelp instanthelp10"
+alias instanthelp10 "instantinferno10output; instantinferno10"
+
+
+
+
+//	Bind repeat function to key2
+alias instantkey2 instantrepeat
+alias instantkey3 instanthelp
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+//	Bind Wheelchair mode to instantkey1
+alias i1 instantwheelstart
+alias instantwheelstart "alias instantkey1 instantinferno; alias instanthelp instantrepeat;toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again; slot8"
+//	Bind instantlove mode to instantkey1
+alias i2 instantlovestart
+alias instantlovestart "alias instantkey1 instantinfernotrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup; slot8"
+
+
+//  .:::::                                                    .::::::::                            
+//  .::   .::              .::                     .::        .::                                  
+//  .::    .::   .::             .::             . .::        .::      .::     .::   .::    .: .:::
+//  .::    .:: .::  .::    .:: .::  .::         .: .::        .::::::   .::   .::  .:   .::  .::   
+//  .::    .::.::    .::   .::.::    .::      .::  .::        .::        .:: .::  .::::: .:: .::   
+//  .::   .::  .::  .::    .:: .::  .::      .:::: .: .::     .::         .:.::   .:         .::   
+//  .:::::       .::       .::   .::               .::        .::::::::    .::      .::::   .:::   
+//                      .:::                                                                       
+
+// Dojo powered by fREShCS
+// https://www.twitch.tv/freshcs_
+// https://www.youtube.com/@fREShCSCoaching
+//
+// credit to BeNseN for the spawn positions and lineups
+// The spawn locations are generaded by using mp_restargame 1; There is a known bug with this method so not all spawns may be active or intended. 
