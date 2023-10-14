@@ -1,0 +1,105 @@
+// game commands for offline server
+exec "dojo\resource\serversettingsoffline.prac"
+
+echo
+echo
+echo To practice instant smokes
+echo -with lineup write>>> i1
+echo -without help write>>> i2
+echo This will load the training mode to your instant keys
+echo
+echo
+echo
+
+//#########################################################################################################
+// Real Instant Smoke positions, instructions and video link 
+alias instantanubis1 "setpos -360.000000 2120.000000 80.056595;setang -54.581944 -82.507195 0.000000"
+alias instantanubis1output "say_team #1 Bridge, jumpthrow"
+alias instantanubis1video "echo "
+
+alias instantanubis2 "setpos -400.000000 2192.000000 82.353271;setang -50.753952 -82.929810 0.000000"
+alias instantanubis2output "say_team #2 Bridge, jumpthrow"
+alias instantanubis2video "echo "
+
+alias instantanubis3 "setpos -476.000000 2216.000000 88.282127;setang -51.260006 -81.243881 0.000000"
+alias instantanubis3output "say_team #3 Bridge, jumpthrow"
+alias instantanubis3video "echo "
+
+alias instantanubis4 "setpos -560.000000 2192.000000 66.348808;setang -52.140171 -77.331795 0.000000"
+alias instantanubis4output "say_team #4 Bridge, jumpthrow"
+alias instantanubis4video "echo "
+
+alias instantanubis5 "setpos -608.000000 2120.000000 80.047379;setang -49.851978 -78.066292 0.000000"
+alias instantanubis5output "say_team #5 Bridge, jumpthrow "
+alias instantanubis5video "echo "
+
+//#########################################################################################################
+
+// Spawn positions
+alias instantanubistrain1 "setpos -360.000000 2120.000000 32.000099;setang 0.000000 225.000000, 0.000000"
+alias instantanubistrain2 "setpos -400.000000 2192.000000 32.000099;setang 0.000000 240.000000, 0.000000"
+alias instantanubistrain3 "setpos -476.000000 2216.000000 32.000000;setang 0.000000 270.000000, 0.000000"
+alias instantanubistrain4 "setpos -560.000000 2192.000000 32.000000;setang 0.000000 285.000000, 0.000000"
+alias instantanubistrain5 "setpos -608.000000 2120.000000 32.000000;setang 0.000000 315.000000, 0.000000"
+
+
+
+
+// Set unused variable
+alias instantrepeat ""
+
+
+// Cycle through real instant smokes
+alias instantanubis .instantanubis1
+alias .instantanubis1 "instantanubis1; alias instantanubis .instantanubis2; alias instantrepeat instantanubis1; instantanubis1output; instantanubis1video"
+alias .instantanubis2 "instantanubis2; alias instantanubis .instantanubis3; alias instantrepeat instantanubis2; instantanubis2output; instantanubis2video"
+alias .instantanubis3 "instantanubis3; alias instantanubis .instantanubis4; alias instantrepeat instantanubis3; instantanubis3output; instantanubis3video"
+alias .instantanubis4 "instantanubis4; alias instantanubis .instantanubis5; alias instantrepeat instantanubis4; instantanubis4output; instantanubis4video"
+alias .instantanubis5 "instantanubis5; alias instantanubis .instantanubis1; alias instantrepeat instantanubis5; instantanubis5output; instantanubis5video"
+
+
+// Cycle through spawn positions
+alias instantanubistrain .instantanubistrain1
+alias .instantanubistrain1 "instantanubistrain1; alias instantanubistrain .instantanubistrain3; alias instantrepeat instantanubistrain1; alias instanthelp instanthelp1"
+alias instanthelp1 "instantanubis1output; instantanubis1"
+
+alias .instantanubistrain2 "instantanubistrain2; alias instantanubistrain .instantanubistrain4; alias instantrepeat instantanubistrain2; alias instanthelp instanthelp2"
+alias instanthelp2 "instantanubis2output; instantanubis2"
+
+alias .instantanubistrain3 "instantanubistrain3; alias instantanubistrain .instantanubistrain5; alias instantrepeat instantanubistrain3; alias instanthelp instanthelp3"
+alias instanthelp3 "instantanubis3output; instantanubis3"
+
+alias .instantanubistrain4 "instantanubistrain4; alias instantanubistrain .instantanubistrain1; alias instantrepeat instantanubistrain4; alias instanthelp instanthelp4"
+alias instanthelp4 "instantanubis4output; instantanubis4"
+
+alias .instantanubistrain5 "instantanubistrain5; alias instantanubistrain .instantanubistrain2; alias instantrepeat instantanubistrain5; alias instanthelp instanthelp5"
+alias instanthelp5 "instantanubis5output; instantanubis5"
+
+
+//	Bind repeat function to keys
+alias instantkey2 instantrepeat
+alias instantkey3 instanthelp
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+//	Bind Wheelchair mode to instantkey1
+alias i1 instantwheelstart
+alias instantwheelstart "alias instantkey1 instantanubis; alias instanthelp instantrepeat; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again; slot8"
+//	Bind instantlove mode to instantkey1
+alias i2 instantlovestart
+alias instantlovestart "alias instantkey1 instantanubistrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup; slot8"
+
+//  .:::::                                                    .::::::::                            
+//  .::   .::              .::                     .::        .::                                  
+//  .::    .::   .::             .::             . .::        .::      .::     .::   .::    .: .:::
+//  .::    .:: .::  .::    .:: .::  .::         .: .::        .::::::   .::   .::  .:   .::  .::   
+//  .::    .::.::    .::   .::.::    .::      .::  .::        .::        .:: .::  .::::: .:: .::   
+//  .::   .::  .::  .::    .:: .::  .::      .:::: .: .::     .::         .:.::   .:         .::   
+//  .:::::       .::       .::   .::               .::        .::::::::    .::      .::::   .:::   
+//                      .:::                                                                       
+
+// Dojo powered by fREShCS
+// https://www.twitch.tv/freshcs_
+// https://www.youtube.com/@fREShCSCoaching
+//
+// credit to BeNseN for the lineups
+// The spawn locations are extracted directly out of the game files
