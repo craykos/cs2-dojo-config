@@ -14,7 +14,7 @@
 |_.__/ \__, |  \___|_|  \__,_|\__, |_|\_\___/|___/ 
        |___/                  |___/                
 
-ᴠ. 3.60
+ᴠ. 3.70
 
 **Instant smokes for: ancient, anubis, inferno & mirage**
 
