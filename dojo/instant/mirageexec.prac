@@ -1,10 +1,10 @@
 alias i1 "exec dojo\instant\instantmirage.prac"
-alias i2 "exec dojo\instant\instantmirage_topcon.prac"
+alias i2 "exec dojo\instant\instantmirage_con.prac"
 
 echo
 echo To practice 
 echo -Window instant smokes _write>>> i1
-echo -Topcon instant smokes _write>>> i2
+echo -Con instant smokes _write>>> i2
 echo
 echo
 
