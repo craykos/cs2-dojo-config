@@ -18,6 +18,9 @@
 
 **Instant smokes for: ancient, anubis, inferno & mirage**
 
+Download:
+https://github.com/craykos/cs2-dojo-config/archive/refs/heads/main.zip
+
 Video Guide:
 https://youtu.be/JBK9XNZ9MwE
 
