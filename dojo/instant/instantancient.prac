@@ -13,15 +13,15 @@ echo
 
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
-alias instantancient1 "setpos_exact -584.000000 -2288.000000 -156.000000;setang_exact -35.111988 88.597496 0.000000"
+alias instantancient1 "setpos_exact -584.000000 -2288.000000 -140.000000;setang_exact -35.111988 88.597496 0.000000"
 alias instantancient1output "say_team #1 Instant Smoke Spawn 1, w jumpthrow, a bit higher ok, lower not"
 alias instantancient1video "echo "
 
-alias instantancient2 "setpos_exact -392.000000 -2224.000000 -156.000000;setang_exact -30.591190 92.491577 0.000000"
+alias instantancient2 "setpos_exact -392.000000 -2224.000000 -140.000000;setang_exact -30.591190 92.491577 0.000000"
 alias instantancient2output "say_team #2 Instant Smoke Spawn 4 Window, w jumpthrow, a bit higher ok, lower not"
 alias instantancient2video "echo "
 
-alias instantancient3 "setpos_exact -328.000000 -2288.000000 -156.000000;setang_exact -31.366583 93.926971 0.000000"
+alias instantancient3 "setpos_exact -328.000000 -2288.000000 -140.000000;setang_exact -31.366583 93.926971 0.000000"
 alias instantancient3output "say_team #3 Instant Smoke Spawn 5 Window,  w jumpthrow, higher ok, lower not"
 alias instantancient3video "echo "
 
@@ -29,15 +29,15 @@ alias instantancient4 "setpos -192.000000 1696.000000 29.000000;setang -32.01652
 alias instantancient4output "say_team #4 CT Instant L Smoke, walk + jumpthrow"
 alias instantancient4video "echo "
 
-alias instantancient5 "setpos_exact -256.000000 1728.000000 29.000000;setang -26.842178 -107.140221 0.000000"
+alias instantancient5 "setpos_exact -256.000000 1728.000000 29.000000;setang_exact -26.842178 -107.140221 0.000000"
 alias instantancient5output "say_team #5 CT Instant L Smoke, walk + jumpthrow"
 alias instantancient5video "echo "
 
-alias instantancient6 "setpos_exact -352.000000 1728.000000 31.000000;setang -27.258087 -105.215515 0.000000"
+alias instantancient6 "setpos_exact -352.000000 1728.000000 31.000000;setang_exact -27.258087 -105.215515 0.000000"
 alias instantancient6output "say_team #6 CT Instant L Smoke, walk + jumpthrow"
 alias instantancient6video "echo "
 
-alias instantancient7 "setpos_exact -448.000000 1727.991455 33.000000;setang -29.706696 -103.290024 0.000000"
+alias instantancient7 "setpos_exact -448.000000 1727.991455 33.000000;setang_exact -29.706696 -103.290024 0.000000"
 alias instantancient7output "say_team #7 CT Instant L Smoke, walk + jumpthrow"
 alias instantancient7video "echo "
 
@@ -57,9 +57,6 @@ alias instantancienttrain5 "setpos_exact  -256.000000 1728.000000 32.000000;seta
 alias instantancienttrain6 "setpos_exact  -352.000000 1728.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
 alias instantancienttrain7 "setpos_exact  -448.000000 1728.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
 alias instantancienttrain8 "setpos_exact  -512.000000 1696.000000 32.000000;setang_exact  0.000000 270.000000 0.000000"
-
-
-
 
 // Set unused variable
 alias instantrepeat ""

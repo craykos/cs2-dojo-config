@@ -1,10 +1,12 @@
-alias i1 "exec dojo\instant\instantanubis_t.prac"
-alias i2 "exec dojo\instant\instantanubis_ct.prac"
+alias i1 "exec dojo\instant\instantanubis_t_win.prac"
+alias i2 "exec dojo\instant\instantanubis_t_con.prac"
+alias i3 "exec dojo\instant\instantanubis_ct.prac"
 
 echo
 echo To practice 
-echo -T instant smokes _write>>> i1
-echo -CT instant smokes _write>>> i2
+echo -T instant window smokes _write>>> i1
+echo -T instant connector smokes _write>>> i2
+echo -CT instant smokes _write>>> i3
 echo
 echo
 
