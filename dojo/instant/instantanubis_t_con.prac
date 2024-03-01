@@ -37,7 +37,7 @@ alias instantanubis6 "setpos_exact -264.000000 -1560.000000 -11.968750;setang_ex
 alias instantanubis6output "say_team #6 Con, jumpthrow"
 alias instantanubis6video "echo  "
 
-alias instantanubis7 "setpos_exact -234.000000 -1503.079956 -11.968750;setang_exact -33.044003 99.956001 0.000000"
+alias instantanubis7 "setpos_exact -234.000000 -1503.079956 -11.968750;setang_exact -14.124023 99.868187 0.000000"
 alias instantanubis7output "say_team #7 Con, jumpthrow"
 alias instantanubis7video "echo  "
 
