@@ -1,0 +1,12 @@
+alias i1 "exec dojo\instant\instantinferno_mid.prac"
+alias i2 "exec dojo\instant\instantinferno_deep.prac"
+
+echo
+echo To practice 
+echo -Mid instant smokes _write>>> i1
+echo -Deep banana instant smokes _write>>> i2
+echo
+echo
+
+
+

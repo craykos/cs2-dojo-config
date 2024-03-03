@@ -1,0 +1,109 @@
+// game commands for offline server [removed till valve fixes message spam]
+//exec "dojo\resource\serversettingsoffline.prac"
+echo
+echo
+echo To practice instant smokes
+echo -with lineup write>>> i1
+echo -without help write>>> i2
+echo This will load the training mode to your instant keys
+echo
+echo
+echo
+
+//#########################################################################################################
+// Real Instant Smoke positions, instructions and video link
+alias instantinferno1 "setpos_exact 2353.000000 1977.000000 199.071655;setang_exact -34.539955 -139.996307 0.000000"
+alias instantinferno1output "say_team Instant Smoke #1, jumpthrow"
+alias instantinferno1video "echo "
+
+alias instantinferno2 "setpos 2472.349854 2005.969971 197.869781;setang -30.904202 -141.210083 0.000000"
+alias instantinferno2output "say_team Instant Smoke #2, jumpthrow"
+alias instantinferno2video "echo "
+
+alias instantinferno3 "setpos 2292.060059 2027.689941 199.454956;setang -27.310516 -138.259109 0.000000"
+alias instantinferno3output "say_team Instant Smoke #3, jumpthrow"
+alias instantinferno3video "echo "
+
+alias instantinferno4 "setpos 2397.000000 2079.000000 196.610153;setang -27.627851 -138.814072 0.000000"
+alias instantinferno4output "say_team Instant Smoke #4, jumpthrow"
+alias instantinferno4video "echo "
+
+alias instantinferno5 "setpos 2493.000000 2090.000000 196.359116;setang -29.159355 -140.191452 0.000000"
+alias instantinferno5output "say_team Instant Smoke #5,  walk + w + jumpthrow"
+alias instantinferno5video "echo "
+
+alias instantinferno6 "setpos 2456.830078 2153.159912 196.053360;setang -26.130831 -137.991684 0.000000"
+alias instantinferno6output "say_team Instant Smoke #6,  walk + w + jumpthrow"
+alias instantinferno6video "echo "
+
+//#########################################################################################################
+
+// Spawn positions
+alias instantinfernotrain1 "setpos 2353.000000 1977.000000 199.071655;setang 0.000000 97.499878 0.000000" 
+alias instantinfernotrain2 "setpos 2472.349854 2005.969971 197.869781;setang 0.000000 160.000061 0.000000" 
+alias instantinfernotrain3 "setpos 2292.060059 2027.689941 199.454956;setang 0.000000 70.000076 0.000000" 
+alias instantinfernotrain4 "setpos 2397.000000 2079.000000 196.610153;setang 0.000000 135.000000 0.000000" 
+alias instantinfernotrain5 "setpos 2493.000000 2090.000000 196.359116;setang 0.000000 -136.499969 0.000000" 
+alias instantinfernotrain6 "setpos 2456.830078 2153.159912 196.053360;setang 0.000000 -108.477943 0.000000" 
+
+
+// Set unused variable
+alias instantrepeat ""
+
+// Cycle through real instant smokes
+alias instantinferno ".instantinferno1; slot8"
+alias .instantinferno1 "instantinferno1; alias instantinferno .instantinferno2; alias instantrepeat instantinferno1; instantinferno1output; instantinferno1video"
+alias .instantinferno2 "instantinferno2; alias instantinferno .instantinferno3; alias instantrepeat instantinferno2; instantinferno2output; instantinferno2video"
+alias .instantinferno3 "instantinferno3; alias instantinferno .instantinferno4; alias instantrepeat instantinferno3; instantinferno3output; instantinferno3video"
+alias .instantinferno4 "instantinferno4; alias instantinferno .instantinferno5; alias instantrepeat instantinferno4; instantinferno4output; instantinferno4video"
+alias .instantinferno5 "instantinferno5; alias instantinferno .instantinferno6; alias instantrepeat instantinferno5; instantinferno5output; instantinferno5video"
+alias .instantinferno6 "instantinferno6; alias instantinferno .instantinferno1; alias instantrepeat instantinferno6; instantinferno6output; instantinferno6video"
+
+// Cycle through spawn positions
+alias instantinfernotrain ".instantinfernotrain1; slot8"
+alias .instantinfernotrain1 "instantinfernotrain1; alias instantinfernotrain .instantinfernotrain3; alias instantrepeat instantinfernotrain1; alias instanthelp instanthelp1"
+alias instanthelp1 "instantinferno1output; instantinferno1"
+
+alias .instantinfernotrain2 "instantinfernotrain2; alias instantinfernotrain .instantinfernotrain4; alias instantrepeat instantinfernotrain2; alias instanthelp instanthelp2"
+alias instanthelp2 "instantinferno2output; instantinferno2"
+
+alias .instantinfernotrain3 "instantinfernotrain3; alias instantinfernotrain .instantinfernotrain5; alias instantrepeat instantinfernotrain3; alias instanthelp instanthelp3"
+alias instanthelp3 "instantinferno3output; instantinferno3"
+
+alias .instantinfernotrain4 "instantinfernotrain4; alias instantinfernotrain .instantinfernotrain6; alias instantrepeat instantinfernotrain4; alias instanthelp instanthelp4"
+alias instanthelp4 "instantinferno4output; instantinferno4"
+
+alias .instantinfernotrain5 "instantinfernotrain5; alias instantinfernotrain .instantinfernotrain2; alias instantrepeat instantinfernotrain5; alias instanthelp instanthelp5"
+alias instanthelp5 "instantinferno5output; instantinferno5"
+
+alias .instantinfernotrain6 "instantinfernotrain6; alias instantinfernotrain .instantinfernotrain1; alias instantrepeat instantinfernotrain6; alias instanthelp instanthelp6"
+alias instanthelp6 "instantinferno6output; instantinferno6"
+
+//	Bind repeat function to key2
+alias instantkey2 instantrepeat
+alias instantkey3 instanthelp
+alias instantkey4 "ent_fire smokegrenade_projectile kill; stopsound"
+alias instantkey5 "sv_rethrow_last_grenade"
+//	Bind Wheelchair mode to instantkey1
+alias i1 instantwheelstart
+alias instantwheelstart "exec "dojo\resource\serversettingsoffline.prac"; alias instantkey1 instantinferno; alias instanthelp instantrepeat;toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the lineups. Press your instant key #3 to train the same lineup again"
+//	Bind instantlove mode to instantkey1
+alias i2 instantlovestart
+alias instantlovestart "exec "dojo\resource\serversettingsoffline.prac"; alias instantkey1 instantinfernotrain; toggleconsole; say_team Practice mode loaded ... Press your instant key #1 to cycle through the spawns. Press your instant key #2 to train the same spawn again. Press your instant key #3 to reveal the lineup"
+
+
+//  .:::::                                                    .::::::::                            
+//  .::   .::              .::                     .::        .::                                  
+//  .::    .::   .::             .::             . .::        .::      .::     .::   .::    .: .:::
+//  .::    .:: .::  .::    .:: .::  .::         .: .::        .::::::   .::   .::  .:   .::  .::   
+//  .::    .::.::    .::   .::.::    .::      .::  .::        .::        .:: .::  .::::: .:: .::   
+//  .::   .::  .::  .::    .:: .::  .::      .:::: .: .::     .::         .:.::   .:         .::   
+//  .:::::       .::       .::   .::               .::        .::::::::    .::      .::::   .:::   
+//                      .:::                                                                       
+
+// Dojo powered by fREShCS
+// https://www.twitch.tv/freshcs_
+// https://www.youtube.com/@fREShCSCoaching
+//
+// credit to OuToU https://www.reddit.com/r/GlobalOffensive/comments/1at5rdr/inferno_instant_mid_smokes_cheat_sheet/
+// The spawn locations are extracted directly out of the game files
