@@ -13,23 +13,23 @@ echo
 
 //#########################################################################################################
 // Real Instant Smoke positions, instructions and video link
-alias instantmirage1 "setpos 1296.000000 -352.000000 -153.906189;setang -41.153137 -174.198914 0.000000"
+alias instantmirage1 "setpos 1296.000000 -352.000000 -153.906189;setang -42.349884 -174.646225 0.000000"
 alias instantmirage1output "say_team Instant Smoke #1, w + jumpthrow"
 alias instantmirage1video "echo "
 
-alias instantmirage2 "setpos 1216.000000 -211.000000 -100.611038;setang -45.979954 -170.366623 0.000000"
+alias instantmirage2 "setpos 1216.000000 -211.000000 -100.611038;setang -46.045956 -170.322403 0.000000"
 alias instantmirage2output "say_team Instant Smoke #2, w + jumpthrow"
 alias instantmirage2video "echo "
 
-alias instantmirage3 "setpos 1216.000000 -115.000000 -102.953156;setang -44.087891 -168.536072 0.000000"
+alias instantmirage3 "setpos 1216.000000 -115.000000 -102.953156;setang -44.549896 -168.799774 0.000000"
 alias instantmirage3output "say_team Instant Smoke #3, w + jumpthrow"
 alias instantmirage3video "echo "
 
-alias instantmirage4 "setpos 1216.000000 -16.000000 -102.953156;setang -45.011959 -166.621872 0.000000"
+alias instantmirage4 "setpos 1216.000000 -16.000000 -102.953156;setang -44.549896 -168.799774 0.000000" 
 alias instantmirage4output "say_team Instant Smoke #4,crouch a bit foreward + jumpthrow"
 alias instantmirage4video "echo "
 
-alias instantmirage5 "setpos 1296.000000 32.000000 -153.930603;setang -28.951996 -165.981461 0.000000"
+alias instantmirage5 "setpos 1296.000000 32.000000 -153.930603;setang -31.856003 -165.430878 0.000000"
 alias instantmirage5output "say_team Instant Smoke #5, w + jumpthrow"
 alias instantmirage5video "echo "
 
